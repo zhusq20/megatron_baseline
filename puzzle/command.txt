@@ -1,0 +1,5497 @@
+    1  ls
+    2  vim ~/.zshrc
+    3  source ~/.zshrc
+    4  ls
+    5  squeue
+    6  ls
+    7  exit
+    8  ls
+    9  vim ~/.bash_profile
+   10  exit
+   11  ls
+   12  tmux
+   13  exit
+   14  cd .oh-my-zsh/plugins
+   15  ls
+   16  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   17  git clone https://gitee.com/phpxxo/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   18  cd ../custom/plugins
+   19  ls
+   20  vim ~/.zshrc
+   21  source ~/.zshrc
+   22  ls
+   23  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   24  ssh-keygen
+   25  cat ~/.ssh/id_rsa.pub
+   26  git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   27  vim ~/.zshrc
+   28  source ~/.zshrc
+   29  ls
+   30  clear
+   31  ls
+   32  vim ~/.zshrc
+   33  source ~/.zshrc
+   34  ls
+   35  clear
+   36  ls
+   37  cd ~
+   38  ls
+   39  mkdir code
+   40  ls
+   41  cd ..
+   42  cd lijianwen
+   43  ls
+   44  df -h
+   45  pwd
+   46  nvidia-smi
+   47  vim ~/.bash_profile
+   48  vim ~/.zshrc
+   49  history | grep high
+   50  vim ~/.bash_profile
+   51  cat ~/.bash_profile
+   52  vim ~/.zshrc
+   53  cat ~/.zshrc
+   54  clear
+   55  ls
+   56  exit
+   57  mkdir -r ~/.vim/color
+   58  mkdir -r ~/.vim
+   59  mkdir ~/.vim
+   60  mkdir ~/.vim/color
+   61  vim ~/.vim/color/molokai.vim
+   62  ls
+   63  vim ~/.vimrc
+   64  ls
+   65  squeue
+   66  nvidia-smi
+   67  top
+   68  ls
+   69  vim code/test
+   70  vim code/test.py
+   71  ls
+   72  clear
+   73  vim code/test.py
+   74  ls
+   75  clear
+   76  exit
+   77  ls
+   78  nvidia-smi
+   79  top
+   80  nvidia-smi
+   81  top
+   82  exit
+   83  squeue
+   84  clear
+   85  ls
+   86  top
+   87  tmux -s history
+   88  top
+   89  tmux new -s history
+   90  exit
+   91  ls
+   92  clear
+   93  tmux attach
+   94  ls
+   95  cd code
+   96  ls
+   97  exit
+   98  ls
+   99  top
+  100  htop
+  101  ls
+  102  df -h
+  103  ls
+  104  squeue
+  105  top
+  106  ls
+  107  nvcc
+  108  ls
+  109  vim ~/.bash_profile
+  110  exit
+  111  ls
+  112  find . -name nvcc
+  113  find / -name nvcc
+  114  clear
+  115  git clone https://github.com/spack/spack.git
+  116  git clone git@github.com/spack/spack.git
+  117  git clone git@github.com:spack/spack.git
+  118  . spack/share/spack/setup-env.sh
+  119  ls
+  120  echo "source /opt/spack/share/spack/setup-env.sh" >> ~/.bashrc
+  121  exit
+  122  vim ~/.bashrc
+  123  vim ~/.vimrc
+  124  ls
+  125  clear
+  126  vim ~/.vimrc
+  127  spack compilers
+  128  spack
+  129  exit
+  130  ls
+  131  code
+  132  cd ..
+  133  ls
+  134  cd code
+  135  ls
+  136  vim ~/.bashrc
+  137  exit
+  138  cd code
+  139  source /opt/spack/share/spack/setup-env.sh
+  140  ls
+  141  which spack
+  142  spack compilers
+  143  spack find
+  144  ls
+  145  cd ..
+  146  ls
+  147  spack load cuda@11.0.2
+  148  ls
+  149  cd ..
+  150  ls
+  151  vim ~/.bashrc
+  152  exit
+  153  spack find
+  154  mkdir opt
+  155  mv spack opt
+  156  ls
+  157  vim ~/.bashrc
+  158  vim ~/.bash_profile
+  159  exit
+  160  spack find
+  161  ls
+  162  wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Linux-x86_64.sh
+  163  ls
+  164  sh ./Miniconda3-py39_4.11.0-Linux-x86_64.sh
+  165  ls
+  166  which python
+  167  exit
+  168  ls
+  169  which python
+  170  ls
+  171  rm Miniconda3-py39_4.11.0-Linux-x86_64.sh
+  172  ls
+  173  cd code
+  174  ls
+  175  cd ..
+  176  clear
+  177  ls
+  178  df -h
+  179  ls
+  180  cd code
+  181  ls
+  182  cd ..
+  183  ls
+  184  nvidia-smi
+  185  spack find
+  186  spack load cuda@11.4.2
+  187  vim ~/.bashrc
+  188  vim ~/.zshrc
+  189  exit
+  190  spack
+  191  spack load cuda@11.4.2
+  192  spack find
+  193  spack load cudnn@8.2.4.15-11.4
+  194  nvcc -v
+  195  nvcc --version
+  196  ls
+  197  clear
+  198  cd code
+  199  git clone git@github.com:pytorch/pytorch.git
+  200  cd code/pytorch
+  201  ls
+  202  git checkout v1.8.0
+  203  conda create env py-debug python=3.9
+  204  conda create env py-debug python==3.9
+  205  conda create env py_debug python==3.9
+  206  clear
+  207  which conda
+  208  conda list env
+  209  ls
+  210  which python3
+  211  conda create --name py-debug python==3.9
+  212  conda env create -n py-debug
+  213  conda env remove -n py-debug
+  214  conda env remove --name py-debug
+  215  conda list env
+  216  conda create --name torch-debug python==3.9
+  217  source load_env.sh
+  218  git submodule sync
+  219  git submodule update --init --recursive
+  220  vim /etc/hosts
+  221  git submodule update --init --recursive
+  222  cd ..
+  223  git clone https://mirror.ghproxy.com/https://github.com/Maratyszcza/FP16.git
+  224  ls
+  225  rm FP16
+  226  ls
+  227  rm -rf FP16
+  228  clear
+  229  tmux new -s build_torch
+  230  git submodule update --init --recursive
+  231  tmux attach -s build_torch
+  232  tmux attach -t build_torch
+  233  exit
+  234  clear
+  235  ls
+  236  squeue
+  237  nvidia-smi
+  238  top
+  239  clear
+  240  ls
+  241  tmux attach -t build_torch
+  242  source load_env.sh
+  243  ls
+  244  git submodule update --init --recursive
+  245  cd third_party
+  246  cd gemmlowp/gemmlowp
+  247  ls
+  248  cd ..
+  249  ls
+  250  git clone https://mirror.ghproxy.com/https://github.com/google/gemmlowp.git
+  251  cd ..
+  252  git submodule update --init --recursive
+  253  ls
+  254  git clone https://mirror.ghproxy.com/https://github.com/Maratyszcza/PeachPy.git
+  255  cd ..
+  256  git submodule update --init --recursive
+  257  cd third_party
+  258  ls
+  259  mv PeachPy python-pechpy
+  260  cd ..
+  261  git submodule update --init --recursive
+  262  cd third_party
+  263  rm -rf python-peachpy
+  264  ls
+  265  cd python-pechpy
+  266  ls
+  267  cd ..
+  268  ls
+  269  rm -rf python-pechpy
+  270  git clone https://mirror.ghproxy.com/https://github.com/Maratyszcza/PeachPy.git
+  271  mv PeachPy python-peachpy
+  272  cd ..
+  273  git clone https://mirror.ghproxy.com/https://github.com/Maratyszcza/PeachPy.git
+  274  git submodule update --init --recursive
+  275  cd ..
+  276  ls
+  277  rm -rf pytorch
+  278  tar -zxvf torch180.tar.gz
+  279  export CMAKE_PREFIX_PATH=${CONDA_PREFIX:-"$(dirname $(which conda))/../"}
+  280  echo $CMAKE_PREFIX_PATH
+  281  source load_env.sh
+  282  conda activate torch_debug
+  283  conda activate torch-debug
+  284  source load_env.sh
+  285  spack unload
+  286  spack find --loaded
+  287  source load_env.sh
+  288  export CMAKE_PREFIX_PATH=${CONDA_PREFIX:-"$(dirname $(which conda))/../"}
+  289  echo $CMAKE_PREFIX_PATH
+  290  python setup.py install
+  291  spack find | grep cmake
+  292  spack load cmake@3.21.4
+  293  spack load cmake@3.21.4/vbd
+  294  python setup.py install
+  295  git submodule update --init --recursive
+  296  python setup.py install
+  297  git submodule update --init --recursive
+  298  python setup.py install
+  299  git submodule sync
+  300  git submodule update --init --recursive
+  301  python setup.py install
+  302  rm -rf third_party/QNNPACK
+  303  git submodule update --init --recursive
+  304  python setup.py install
+  305  python3 -m pip install pyyaml
+  306  python setup.py install
+  307  python3 -m pip install typing-extensions
+  308  python setup.py install
+  309  rm /home/lijianwen/code/pytorch/third_party/NNPACK
+  310  rm -rf /home/lijianwen/code/pytorch/third_party/NNPACK
+  311  git submodule sync
+  312  git submodule update --init --recursive
+  313  python setup.py install
+  314  spack find | grep mkl
+  315  spack load intel-mkl@2020.4.304
+  316  python setup.py install
+  317  python setup.py clean
+  318  python setup.py install
+  319  echo $CMAKE_PREFIX_PATH
+  320  spack unload
+  321  source load_env.sh
+  322  echo $CMAKE_PREFIX_PATH
+  323  exit
+  324  source load_env.sh
+  325  echo $CMAKE_PREFIX_PATH
+  326  export CMAKE_PREFIX_PATH=${CONDA_PREFIX:-"$(dirname $(which conda))/../"}
+  327  echo $CMAKE_PREFIX_PATH
+  328  exit
+  329  spack load intel-mkl@2020.4.304
+  330  exit
+  331  source load_env.sh
+  332  echo $CMAKE_PREFIX_PATH
+  333  export CMAKE_PREFIX_PATH=${CONDA_PREFIX:-"$(dirname $(which conda))/../"}:$CMAKE_PREFIX_PATH
+  334  echo $CMAKE_PREFIX_PATH
+  335  python setup.py install
+  336  export USE_CUDA=ON
+  337  python setup.py install
+  338  spack find | grep cuda
+  339  spack find | grep cudnn
+  340  spack load cuda@11.1.0
+  341  exit
+  342  source load_env.sh
+  343  python setup.py clean
+  344  python setup.py install
+  345  python3 -m pip install numpy
+  346  conda install numpy ninja pyyaml mkl mkl-include setuptools cmake cffi typing_extensions future six requests dataclasses
+  347  python3 -m pip install numpy ninja pyyaml mkl mkl-include setuptools cmake cffi typing_extensions future six requests dataclasses
+  348  python3 -m pip install numpy
+  349  python setup.py install
+  350  python setup.py clean
+  351  python setup.py install
+  352  cd ..
+  353  python3
+  354  exit
+  355  ls
+  356  cd code
+  357  ls
+  358  rm -rf torch180.tar.gz
+  359  ls
+  360  cd pytorch
+  361  ls
+  362  source load_env.sh
+  363  cd ..
+  364  ls
+  365  cd..
+  366  cd ..
+  367  python3
+  368  ls
+  369  mkdir env
+  370  mv code/pytorch/load_env.sh env/torch-debug.sh
+  371  ls
+  372  cd env
+  373  ls
+  374  cd ..
+  375  ls
+  376  vim env/torch-debug.sh torch180-debug.sh
+  377  mv env/torch-debug.sh torch180-debug.sh
+  378  ls
+  379  cd env
+  380  ls
+  381  cd .
+  382  ls
+  383  cd ..
+  384  ls
+  385  vim torch180-debug.sh
+  386  mv torch180-debug.sh env
+  387  ls
+  388  cd env
+  389  ls
+  390  cd ..
+  391  ls
+  392  clear
+  393  python3
+  394  nvidia-smi
+  395  exit
+  396  ls
+  397  cd env
+  398  ls
+  399  mv torch180-debug.sh torch180-debug
+  400  ls
+  401  exit
+  402  source env/torch180-debug
+  403  ls
+  404  source env/torch180-debug
+  405  source ~/env/torch180-debug
+  406  python setup.py install
+  407  source ~/env/torch180-debug
+  408  python3
+  409  cd ..
+  410  python3
+  411  python setup.py install
+  412  python3
+  413  python setup.py install
+  414  python3
+  415  python setup.py install
+  416  python3
+  417  python setup.py install
+  418  python3
+  419  python3
+  420  cd ..
+  421  ls
+  422  cd code
+  423  ls
+  424  mkdir tiny
+  425  source /home/lijianwen/miniconda3/bin/activate
+  426  conda activate torch-debug
+  427  python3 -m pip install torchvision
+  428  ls
+  429  exit
+  430  source /home/lijianwen/miniconda3/bin/activate
+  431  conda activate torch-debug
+  432  python3 -m pip install torchvision==0.9.0
+  433  python3 -m pip install torchvision==0.9.0 
+  434  python3 -m pip install torchvision==0.9.0 --no-deps
+  435  python3 -m pip install pillow
+  436  python3 -m pip install torchvision==0.9.0
+  437  python setup.py install
+  438  python3
+  439  python3 resnet.py
+  440  source ~/env/torch180-debug
+  441  python3 resnet.py
+  442  python setup.py install
+  443  python3
+  444  python setup.py install
+  445  python3
+  446  python setup.py install
+  447  python3
+  448  ldd /home/lijianwen/miniconda3/envs/torch-debug/lib/python3.9/site-packages/torch/lib/libc10_cuda.so
+  449  python3 -m pip uninstall torchvision
+  450  python3
+  451  pip shwo torch
+  452  pip show torch
+  453  python3 -m pip uninstall torch
+  454  python setup.py install
+  455  python3
+  456  python3 -m pip install torchvision==0.9.0
+  457  python3 -m pip uninstall torch
+  458  python setup.py install
+  459  python3
+  460  python3 resnet.py
+  461  python setup.py install
+  462  python3 resnet.py
+  463  python setup.py install
+  464  python3 resnet.py
+  465  source ~/env/torch180-debug
+  466  python3 resnet.py
+  467  wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
+  468  source /home/lijianwen/miniconda3/bin/activate
+  469  conda activate torch-debug
+  470  df -h
+  471  exit
+  472  python3 -m pip install imageio
+  473  python3 -m pip install tqdm
+  474  python3
+  475  unzip tiny-imagenet-200.zip
+  476  python3 resnet.py
+  477  source /home/lijianwen/miniconda3/bin/activate
+  478  conda activate torch-debug
+  479  top
+  480  python3 resnet.py
+  481  rm tin.py
+  482  python3 resnet.py
+  483  source /home/lijianwen/miniconda3/bin/activate
+  484  conda activate torch-debug
+  485  top
+  486  nvidia-smi
+  487  watch nvidia-smi
+  488  python3 resnet.py
+  489  source ~/env/torch180-debug
+  490  python setup.py install
+  491  python3 resnet.py
+  492  python setup.py install
+  493  python3 resnet.py
+  494  python setup.py install
+  495  python3 resnet.py
+  496  python setup.py install
+  497  python3 resnet.py
+  498  python setup.py install
+  499  python3 resnet.py
+  500  python setup.py install
+  501  python3 resnet.py
+  502  nvidia-smi
+  503  watch nvidia-smi
+  504  python3 tiny_dataset.py
+  505  source ~/env/torch180-debug
+  506  python3 tiny_dataset.py
+  507  pwd
+  508  python3 resnet.py
+  509  source ~/env/torch180-debug
+  510  python setup.py install
+  511  python3 resnet.py
+  512  python3 resnet.py | tee output.txt
+  513  python3 -m pip install matplotlib
+  514  python3 plot.py
+  515  python3 resnet.py | tee output.txt
+  516  python3 resnet.py | tee output2.txt
+  517  python3 plot.py
+  518  python3 resnet.py | tee output2.txt
+  519  python setup.py install
+  520  python3 resnet.py | tee output2.txt
+  521  python3 plot.py
+  522  python3 resnet.py | tee output2.txt
+  523  python3 plot.py
+  524  python3 resnet.py | tee output2.txt
+  525  python3 plot.py
+  526  source /home/lijianwen/miniconda3/bin/activate
+  527  conda activate torch-debug
+  528  mkdir ~/datasets
+  529  mv tiny-imagenet-200 ~/datasets
+  530  ls
+  531  rm -rf tiny-imagenet-200.zip
+  532  ls
+  533  rm __pycache__ -rf
+  534  ls
+  535  python3 resnet.py
+  536  ls
+  537  python3 resnet.py
+  538  python setup.py install
+  539  g++ env.cpp -o a
+  540  ./a
+  541  g++ env.cpp -o a
+  542  ./a
+  543  g++ env.cpp -o a
+  544  ./a
+  545  python setup.py install
+  546  python3 resnet.py
+  547  python setup.py install
+  548  python3 resnet.py
+  549  python3 resnet.py | tee output3.txt
+  550  python setup.py install
+  551  python3 plot.py
+  552  g++ test.cpp -o a
+  553  g++ –std=c++11 test.cpp -o a
+  554  g++ –std=c++11 -pthread test.cpp -o a
+  555  g++ –-std=c++11 -pthread test.cpp -o a
+  556  g++ –std=c++11 a.cpp -lpthread
+  557  g++ –std=c++11 test.cpp -lpthread
+  558  g++  test.cpp -lpthread –std=c++11
+  559  which gcc
+  560  gcc --version
+  561  g++ version
+  562  g++  test.cpp -lpthread –std=c++11
+  563  g++  test.cpp -lpthread -std=c++11
+  564  ./a.out
+  565  g++  test.cpp -lpthread -std=c++11
+  566  rm a.out
+  567  g++  test.cpp -lpthread -std=c++11
+  568  ./a.out
+  569  g++  test.cpp -lpthread -std=c++11
+  570  ./a.out
+  571  python setup.py install
+  572  g++  test.cpp
+  573  g++  test.cpp -lpthread -
+  574  g++  test.cpp -lpthread
+  575  ./a.out
+  576  python setup.py install
+  577  nvidia-smi
+  578  python setup.py install
+  579  python3 resnet.py
+  580  ps
+  581  ps -ef | grep python
+  582  ps -ef | grep python3
+  583  ps
+  584  kill -9 1722997\nkill -9 1722998\nkill -9 1723452\nkill -9 1724099\nkill -9 1724740\nkill -9 1725387
+  585  python3 resnet.py
+  586  ps
+  587  python3 resnet.py
+  588  python3 resnet.py | tee output4.txt
+  589  python3 plot.py
+  590  python3 resnet.py | tee output5.txt
+  591  ps
+  592  python3 plot.py
+  593  python3 resnet.py | tee output5.txt
+  594  python3 plot.py
+  595  python3 resnet.py | tee output5.txt
+  596  python3 plot.py
+  597  vim ~/.vimrc
+  598  vim /etc/vim/vimrc
+  599  vim /etc/vim/vimrc.tiny
+  600  vim /etc/vim/vimrc
+  601  vim /usr/share/vim/vimrc
+  602  vim /usr/share/vim/vimrc.tiny
+  603  vim /usr/share/vim/vimrc
+  604  vim /usr/share/vim/vim82/debian.vim
+  605  cd ~
+  606  ls
+  607  squeue
+  608  cd opt
+  609  ls
+  610  cd ..
+  611  ls
+  612  cd opt
+  613  ls
+  614  cd spack
+  615  ls
+  616  cd ..
+  617  ls
+  618  cd ..
+  619  ls
+  620  nvidia-smi
+  621  ls
+  622  cd code
+  623  ls
+  624  cd tiny
+  625  ls
+  626  rm a.out
+  627  ls
+  628  cd ..
+  629  ls
+  630  exit
+  631  ls
+  632  exut
+  633  exit
+  634  source /home/lijianwen/miniconda3/bin/activate
+  635  conda activate torch-debug
+  636  python3
+  637  nvidia-smi
+  638  ls
+  639  cd tiny
+  640  ls
+  641  cd code/tiny
+  642  ls
+  643  code .
+  644  ls
+  645  rm output*
+  646  ls
+  647  rm test.cpp
+  648  ls
+  649  clear
+  650  conda env list
+  651  cd ..
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd env
+  656  ls
+  657  vim torch180-debug
+  658  ls
+  659  clear
+  660  ls
+  661  cd ..
+  662  ls
+  663  cd code
+  664  ls
+  665  cd pytorch
+  666  ls
+  667  clear
+  668  ls
+  669  cd ..
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd opt
+  674  ls
+  675  cd spack
+  676  ls
+  677  cd ..
+  678  ls
+  679  top
+  680  htop
+  681  exit
+  682  nvidia-smi
+  683  ps
+  684  top
+  685  htop
+  686  ls
+  687  df -h
+  688  ls
+  689  eit
+  690  exit
+  691  ls
+  692  cd code
+  693  ls
+  694  git clone git@github.com:Yinghan-Li/YHs_Sample.git
+  695  ls
+  696  cd YHs_Sample/cuda/microbenchmark
+  697  ls
+  698  nvcc --version
+  699  cat ~/env/torch180-debug
+  700  spack load cuda@11.1.0\nspack load cudnn@8.0.4.30-11.1-linux-x64
+  701  nvcc --version
+  702  bash build.sh
+  703  ls
+  704  vim build.sh
+  705  cat build.sh
+  706  sh build.sh l2cache_bandwidth.cu 80
+  707  ls
+  708  ./a.out
+  709  vim l2cache_bandwidth.cu
+  710  ls
+  711  sh build.sh l2cache_bandwidth 80
+  712  sh build.sh l1cache_latency.cu 80
+  713  ./a.out
+  714  sh build.sh l2cache_latency.cu 80
+  715  ./a.out
+  716  vim l2cache_latency.cu
+  717  ls
+  718  clear
+  719  ls
+  720  cd ..
+  721  ls
+  722  cd gemm
+  723  ls
+  724  cd ..
+  725  ls
+  726  cd microbenchmark
+  727  ls
+  728  nvidia-smi
+  729  ls
+  730  CUDA_AVAILBLE_DEVICE=3 ./a.out
+  731  history | grep l2cache
+  732  ld
+  733  ls
+  734  sh build.sh l2cache_bandwidth 80
+  735  sh build.sh l2cache_bandwidth.cu 80
+  736  CUDA_AVAILBLE_DEVICE=3 ./a.out
+  737  CUDA_VISIBLE_DEVICES=3 ./a.out
+  738  clear
+  739  nvidia-smi
+  740  CUDA_VISIBLE_DEVICES=3 ./a.out
+  741  CUDA_VISIBLE_DEVICES=2 ./a.out
+  742  CUDA_VISIBLE_DEVICES=0 ./a.out
+  743  CUDA_VISIBLE_DEVICES=3 ./a.out
+  744  watch -n0.1 nvidia-smi
+  745  CUDA_VISIBLE_DEVICES=3 ./a.out
+  746  clear
+  747  ls
+  748  vim l2cache_bandwidth.cu
+  749  CUDA_VISIBLE_DEVICES=3 ./a.out
+  750  exit
+  751  squeue
+  752  ls
+  753  nvidia-smi
+  754  ls
+  755  vim ~/.ssh/authorized_keys
+  756  mv ~/.ssh/authorized_keys ~/.ssh/authorized_keys.bak
+  757  exit
+  758  mv ~/.ssh/authorized_keys.bak ~/.ssh/authorized_keys
+  759  exit
+  760  squeue
+  761  ls
+  762  nvidia-smi
+  763  ls
+  764  sinfo
+  765  top
+  766  ls
+  767  clear
+  768  chsh -s /bin/zsh
+  769  chsh /bin/zsh
+  770  ls
+  771  vim ~/.bashrc
+  772  vim ~/.bash_profile
+  773  vim ~/.zshrc
+  774  cat ~/.zshrc
+  775  ls
+  776  history
+  777  history | grep oh
+  778  history
+  779  squeue
+  780  ls
+  781  cd opt
+  782  ls
+  783  cd ..
+  784  ls
+  785  cd datasets
+  786  ls
+  787  cd ..
+  788  ls
+  789  cd code
+  790  ls
+  791  cd ..
+  792  ls
+  793  cd opt
+  794  ls
+  795  exit
+  796  squeue
+  797  nvidia-smi
+  798  top
+  799  ls
+  800  clear
+  801  ls
+  802  cd env
+  803  ls
+  804  cd ..
+  805  ls
+  806  cd code
+  807  ls
+  808  cd pytorch
+  809  ls
+  810  cd ..
+  811  ls
+  812  cd ..
+  813  ls
+  814  df -h
+  815  ls
+  816  cd opt
+  817  ls
+  818  cd ..
+  819  ls
+  820  rm -rf opt
+  821  ls
+  822  df -h
+  823  pwd
+  824  cd /mnt/data
+  825  ls
+  826  cd ~
+  827  ls
+  828  mkdir install
+  829  cd install
+  830  lks
+  831  ls
+  832  mkdir sycl_workspace
+  833  cd sycl_workspace
+  834  git clone https://github.com/intel/llvm -b sycl
+  835  ls
+  836  cd llvm
+  837  ks
+  838  ls
+  839  vim rebuild.sh
+  840  spack find | grep cuda
+  841  spack find | grep llvm
+  842  cd ..
+  843  ls
+  844  cd ..
+  845  ls
+  846  git clone -c feature.manyFiles=true https://github.com/spack/spack.git
+  847  ./spack install llvm@14.0.2
+  848  tmux
+  849  tmux attach
+  850  ./spack install llvm@14.0.2
+  851  tmux attach
+  852  cd install/spack/bin
+  853  ./spack find
+  854  ./spack find | grep llvm
+  855  tmux attach
+  856  cat /tmp/lijianwen/spack-stage/spack-stage-llvm-14.0.2-eh6buaqy2e43ihz5hfkgrkd2ky35ftxb/spack-build-out.txt | grep error
+  857  tmux attach
+  858  ./spack install llvm@14.0.2
+  859  ./spack compilers    
+  860  spack compiler find
+  861  ./spack compilers    
+  862  spack list llvm
+  863  spack info llvm
+  864  tmux attach
+  865  ./spack install llvm
+  866  spack find | grep llvm
+  867  ./spack find | grep llvm
+  868  spack info llvm
+  869  tmux attach
+  870  ./spack install llvm@13.0.0
+  871  squeue
+  872  ls
+  873  top
+  874  tmux attach
+  875  ls
+  876  squeue
+  877  top
+  878  htop
+  879  nvidia-smi
+  880  pwd
+  881  cd ~/install/sycl_workspace/llvm/
+  882  ls
+  883  /home/lijianwen/install/spack/bin/spack find
+  884  /home/lijianwen/install/spack/bin/spack load llvm@15.0.0
+  885  vim ~/.bashrc
+  886  exit
+  887  which spack
+  888  vim ~/.bashrc
+  889  source ~/.bashrc
+  890  exit
+  891  which spack
+  892  vim ~/.bashrc
+  893  tail ~/.bashrc
+  894  /home/lijianwen/install/spack/bin/spack load llvm@15.0.0
+  895  . /home/lijianwen/install/spack/share/spack/setup-env.sh
+  896  spack load llvm
+  897  spack load llvm@15.0.1
+  898  spack find | grep llvm
+  899  which spack
+  900  /home/lijianwen/install/spack/bin/spack load llvm@15.0.0
+  901  exit
+  902  /home/lijianwen/install/spack/bin/spack load llvm@15.0.0
+  903  bash /home/lijianwen/install/spack/share/spack/setup-env.sh
+  904  /home/lijianwen/install/spack/bin/spack load llvm@15.0.0
+  905  spack
+  906  spack load
+  907  spack find
+  908  which spack
+  909  where spack
+  910  vim ~/.bashrc
+  911  vim ~/.bash_profile
+  912  xit
+  913  exit
+  914  cd install/sycl_workspace/llvm
+  915  ls
+  916  bash rebuild.sh
+  917  spack load cmake@3.18.4
+  918  vim rebuild.sh
+  919  bash rebuild.sh
+  920  ls
+  921  cd ..
+  922  ls
+  923  exit
+  924  vim ~/env/sycl.sh
+  925  ls
+  926  cd lvl
+  927  cd llvm
+  928  ls
+  929  bash rebuild.sh
+  930  ls
+  931  cat rebuild.sh
+  932  vim ~/env/sycl.sh
+  933  bash rebuild.sh
+  934  s
+  935  bash rebuild.sh
+  936  ls
+  937  source ~/env/sycl.sh
+  938  cd ..
+  939  ls
+  940  mkdir device-selector
+  941  cd device-selector
+  942  ls
+  943  vim device-selector.cpp
+  944  vim Makefile
+  945  which cuda
+  946  which nvcc
+  947  vim Makefile
+  948  make
+  949  ./device-selector
+  950  squeue
+  951  ls
+  952  exit
+  953  cd install/sycl_workspace/device-selector
+  954  ls
+  955  ./device-selector
+  956  source ~/env/sycl.sh
+  957  ./device-selector
+  958  top
+  959  nvidia-smi
+  960  ./device-selector
+  961  cd ..
+  962  ls
+  963  cd ..
+  964  ls
+  965  rm -rf llvm-project-14.0.2.src
+  966  cd cmake
+  967  ls
+  968  cd ..
+  969  ls
+  970  rm -rf cmake
+  971  ls
+  972  cd ..
+  973  ls
+  974  cd datasets
+  975  ls
+  976  cd ..
+  977  rm -rf datasets/
+  978  ls
+  979  cd code
+  980  ls
+  981  cd ..
+  982  ls
+  983  mkdir workspace
+  984  cd workspace
+  985  ls
+  986  git clone git@github.com:bcosenza/sycl-bench.git
+  987  ls
+  988  cd sycl-bench
+  989  ls
+  990  mkdir build && cd build
+  991  which clang++
+  992  spack load cmake@3.18.4
+  993  cmake -DSYCL_IMPL=LLVM -DCMAKE_CXX_COMPILER=/home/lijianwen/install/sycl_workspace/llvm/build/bin/clang++ ..
+  994  cmake --build .
+  995  cd .
+  996  cd ..
+  997  mkdir script
+  998  vim script/benchmark.py
+  999  CUDA_VISIBLE_DEVICES=0 python3 script/benchmark.py
+ 1000  vim script/benchmark.py
+ 1001  CUDA_VISIBLE_DEVICES=0 python3 script/benchmark.py
+ 1002  cd build
+ 1003  ./atax --device=cpu
+ 1004  ./atax --device=gpu
+ 1005  cd ..
+ 1006  ls
+ 1007  rm -rf build/*
+ 1008  cd b
+ 1009  cd build
+ 1010  cmake -DSYCL_IMPL=LLVM-CUDA -DCMAKE_CXX_COMPILER=/home/lijianwen/install/sycl_workspace/llvm/build/bin/clang++ ..
+ 1011  cmake --build .
+ 1012  which nvcc
+ 1013  vim ../CMakeLists.txt
+ 1014  cmake --build .
+ 1015  cmake -DSYCL_IMPL=LLVM-CUDA -DCMAKE_CXX_COMPILER=/home/lijianwen/install/sycl_workspace/llvm/build/bin/clang++ ..
+ 1016  cd ..
+ 1017  rm -rf build/*
+ 1018  cd b
+ 1019  cd build
+ 1020  cmake -DSYCL_IMPL=LLVM-CUDA -DCMAKE_CXX_COMPILER=/home/lijianwen/install/sycl_workspace/llvm/build/bin/clang++ ..
+ 1021  cmake --build .
+ 1022  cd ..
+ 1023  python3 script/benchmark.py 
+ 1024  ls
+ 1025  vim script/benchmark.py
+ 1026  python3 script/benchmark.py 
+ 1027  source ~/env/sycl.sh
+ 1028  cd workspace/sycl-bench
+ 1029  ls
+ 1030  python3 script/benchmark.py 
+ 1031  nvidia-smi
+ 1032  vim script/benchmark.py
+ 1033  ls
+ 1034  vim README.md
+ 1035  vim CMake
+ 1036  vim CMakeLists.txt
+ 1037  rm -rf build/*
+ 1038  cd b
+ 1039  cd build
+ 1040  spack load cmake@3.18.4
+ 1041  cmake -DSYCL_IMPL=LLVM-CUDA -DCMAKE_CXX_COMPILER=/home/lijianwen/install/sycl_workspace/llvm/build/bin/clang++ ..
+ 1042  cmake --build .
+ 1043  vim CMakeLists.txt
+ 1044  cd ..
+ 1045  vim CMakeLists.txt
+ 1046  cd build
+ 1047  cmake -DSYCL_IMPL=LLVM-CUDA -DCMAKE_CXX_COMPILER=/home/lijianwen/install/sycl_workspace/llvm/build/bin/clang++ ..
+ 1048  cmake --build .
+ 1049  nvidia-smi
+ 1050  source ~/env/sycl.sh
+ 1051  ls
+ 1052  cd workspace
+ 1053  ls
+ 1054  cd sycl-bench
+ 1055  ls
+ 1056  vim script/benchmark.py
+ 1057  python3 script/benchmark.py 
+ 1058  ls
+ 1059  vim script/benchmark.py
+ 1060  python3 script/benchmark.py 
+ 1061  vim script/benchmark.py
+ 1062  python3 script/benchmark.py 
+ 1063  ././build/2DConvolution --no-verification --device=gpu
+ 1064  CUDA_VISIBLE_DEVICES=3 python3 script/benchmark.py
+ 1065  CUDA_VISIBLE_DEVICES=3 ././build/2DConvolution --no-verification --device=gpu
+ 1066  CUDA_VISIBLE_DEVICES=3 ././build/2mm --no-verification --device=gpu
+ 1067  vim script/benchmark.py
+ 1068  python3 script/benchmark.py | tee output.txt
+ 1069  vim script/benchmark.py
+ 1070  CUDA_VISIBLE_DEVICES=3 python3 script/benchmark.py | tee output.txt
+ 1071  nvidia-smi
+ 1072  cd workspace/sycl-bench
+ 1073  ls
+ 1074  cat output.txt
+ 1075  top
+ 1076  vim script/benchmark.py
+ 1077  CUDA_VISIBLE_DEVICES=3 python3 script/benchmark.py
+ 1078  ls
+ 1079  vim script/benchmark.py
+ 1080  CUDA_VISIBLE_DEVICES=3 python3 script/benchmark.py
+ 1081  nvidia-smi
+ 1082  ls
+ 1083  source ~/env/sycl.sh
+ 1084  cd workspace/sycl-bench
+ 1085  ls
+ 1086  CUDA_VISIBLE_DEVICES=3 ././build/sobel --no-verification --device=gpu
+ 1087  ls
+ 1088  find . -name Brommy.bmp
+ 1089  vim single-kernel/sobel.cpp
+ 1090  vim rebuild.sh
+ 1091  cd ..
+ 1092  vim rebuild.sh
+ 1093  ls
+ 1094  cd sycl-bench
+ 1095  ls
+ 1096  cd build
+ 1097  cmake --build .
+ 1098  spack load cmake@3.18.4
+ 1099  cmake --build .
+ 1100  CUDA_VISIBLE_DEVICES=3 ././build/sobel --no-verification --device=gpu
+ 1101  CUDA_VISIBLE_DEVICES=3 ./sobel --no-verification --device=gpu
+ 1102  cmake --build .
+ 1103  CUDA_VISIBLE_DEVICES=3 ./sobel5 --no-verification --device=gpu
+ 1104  nvidia-smi
+ 1105  CUDA_VISIBLE_DEVICES=3 ./sobel5 --no-verification --device=gpu
+ 1106  watch nvidia-smi
+ 1107  CUDA_VISIBLE_DEVICES=3 ./sobel5 --no-verification --device=gpu
+ 1108  CUDA_VISIBLE_DEVICES=3 ./sobel7 --no-verification --device=gpu
+ 1109  CUDA_VISIBLE_DEVICES=3 ./vec_add  --no-verification --device=gpu
+ 1110  CUDA_VISIBLE_DEVICES=3 ./3mm  --no-verification --device=gpu
+ 1111  CUDA_VISIBLE_DEVICES=3 ./gemm  --no-verification --device=gpu
+ 1112  ls
+ 1113  CUDA_VISIBLE_DEVICES=3 ./median  --no-verification --device=gpu
+ 1114  exit
+ 1115  cd ..
+ 1116  ls
+ 1117  cd build
+ 1118  cd ..
+ 1119  cat script/benchmark.py
+ 1120  vim CMakeLists.txt
+ 1121  cd b
+ 1122  cd build
+ 1123  ls
+ 1124  nvidia-smi
+ 1125  CUDA_VISIBLE_DEVICES=3 ./lin_reg_coeff  --no-verification --device=gpu
+ 1126  CUDA_VISIBLE_DEVICES=3 ./lin_reg_coeff  --no-verification --device=gpu --num-runs=10
+ 1127  clear
+ 1128  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 1129  ./host_device_bandwidth --device=gpu --num-runs=10
+ 1130  source ~/env/sycl.sh
+ 1131  cd workspace/sycl-bench
+ 1132  nvidia-smi
+ 1133  CUDA_VISIBLE_DEVICES=3 ./build/syrk  --no-verification --device=gpu --num-runs=10
+ 1134  squeue
+ 1135  exit
+ 1136  tmux attach
+ 1137  tmux attach -t 1
+ 1138  tmux attach -t 2
+ 1139  tmux attach -t 3
+ 1140  tmux attach -t 4
+ 1141  tmux attach -t 5
+ 1142  tmux attach
+ 1143  exit
+ 1144  tmux attach
+ 1145  ls
+ 1146  cd install
+ 1147  ls
+ 1148  cd llvm-14.0.2
+ 1149  ls
+ 1150  cd ..
+ 1151  ls
+ 1152  cd sycl_workspace
+ 1153  ls
+ 1154  mkdir simple-sycl-app
+ 1155  cd simple-sycl-app
+ 1156  vim simple-sycl-app.cpp
+ 1157  clang++ -fsycl simple-sycl-app.cpp -o simple-sycl-app
+ 1158  source ~/env/sycl.sh
+ 1159  clang++ -fsycl simple-sycl-app.cpp -o simple-sycl-app
+ 1160  ./simple-sycl-app
+ 1161  vim simple-sycl-app.cpp
+ 1162  cd ..
+ 1163  ls
+ 1164  cd device-selector
+ 1165  ls
+ 1166  make
+ 1167  ./device-selector
+ 1168  llvm-ar -v
+ 1169  llvm-ar --version
+ 1170  ls
+ 1171  cd ..
+ 1172  ls
+ 1173  cd llvm
+ 1174  vim rebuild.sh
+ 1175  cd ..
+ 1176  ls
+ 1177  cd simple-sycl-app
+ 1178  ls
+ 1179  rm simple-sycl-app.cpp
+ 1180  vim simple-sycl-app.cpp
+ 1181  vim Makefile
+ 1182  make
+ 1183  make run
+ 1184  vim Makefile
+ 1185  vim simple-sycl-app.cpp
+ 1186  make
+ 1187  ./simple-sycl-app
+ 1188  vim simple-sycl-app.cpp
+ 1189  make
+ 1190  rm 1
+ 1191  ls
+ 1192  ./simple-sycl-app
+ 1193  ls
+ 1194  cd install
+ 1195  ls
+ 1196  cd sycl_workspace/llvm/
+ 1197  vim sycl/plugins/cuda/pi_cuda.cpp
+ 1198  bash rebuild.sh
+ 1199  cd ..
+ 1200  ls
+ 1201  cd simple-sycl-app
+ 1202  ls
+ 1203  make
+ 1204  source ~/env/sycl.sh
+ 1205  make
+ 1206  ./simple-sycl-app
+ 1207  ls
+ 1208  cd ..
+ 1209  ls
+ 1210  vim rebuild.sh
+ 1211  cd llvm
+ 1212  vim rebuild.sh
+ 1213  bash rebuild.sh
+ 1214  cd ../simple-sycl-app
+ 1215  make
+ 1216  ./simple-sycl-app
+ 1217  cd ../llvm
+ 1218  sycl/source/device_selector.cpp
+ 1219  vim sycl/source/device_selector.cpp
+ 1220  vim sycl/plugins/cuda/pi_cuda.cpp
+ 1221  bash rebuild.sh
+ 1222  cd ../simple-sycl-app
+ 1223  make
+ 1224  ./simple-sycl-app
+ 1225  cd ../llvm
+ 1226  vim sycl/plugins/cuda/pi_cuda.cpp
+ 1227  vim sycl/source/device_selector.cpp
+ 1228  find /opt -name setvars.sh
+ 1229  ls
+ 1230  find / -name setvars.sh
+ 1231  find / -name setvars.sh > /dev/null 2>&1
+ 1232  ls
+ 1233  vim sycl/source/device_selector.cpp
+ 1234  cd ..
+ 1235  ls
+ 1236  cd simple-sycl-app
+ 1237  ls
+ 1238  vim simple-sycl-app.cpp
+ 1239  make
+ 1240  vim simple-sycl-app.cpp
+ 1241  make
+ 1242  vim simple-sycl-app.cpp
+ 1243  make
+ 1244  ./simple-sycl-app
+ 1245  vim simple-sycl-app.cpp
+ 1246  make
+ 1247  ./simple-sycl-app
+ 1248  make
+ 1249  clang++ -fsycl -fsycl-host-compiler=g++ simple-sycl-app.cpp -o simple-sycl-app 
+ 1250  clang++ -fsycl  simple-sycl-app.cpp -o simple-sycl-app 
+ 1251  ls
+ 1252  vim simple-sycl-app.cpp
+ 1253  make
+ 1254  cd ..
+ 1255  ls
+ 1256  cd device-selector
+ 1257  ls
+ 1258  vim device-selector.cpp
+ 1259  rm device-selector.cpp
+ 1260  vim device-selector.cpp
+ 1261  make
+ 1262  vim Makefile
+ 1263  which nvcc
+ 1264  vim Makefile
+ 1265  cd ..
+ 1266  ls
+ 1267  cd llvm
+ 1268  vim rebuild.sh
+ 1269  bash rebuild.sh
+ 1270  cd ../device-selector
+ 1271  ls
+ 1272  make
+ 1273  ./device-selector
+ 1274  nvidia-smi
+ 1275  vim rebuild.sh
+ 1276  vim device-selector.cpp
+ 1277  make
+ 1278  ./device-selector
+ 1279  vim device-selector.cpp
+ 1280  make
+ 1281  ls
+ 1282  cd ../llvm
+ 1283  ls
+ 1284  vim rebuild.sh
+ 1285  export | grep llvm
+ 1286  vim ~/env/sycl.sh
+ 1287  exit
+ 1288  export | grep llvm
+ 1289  source ~/env/sycl.sh
+ 1290  export | grep llvm
+ 1291  vim ~/env/sycl.sh
+ 1292  export | grep llvm
+ 1293  vim ~/env/sycl.sh
+ 1294  exit
+ 1295  source ~/env/sycl.sh
+ 1296  export | grep llvm
+ 1297  ls
+ 1298  cd install/sycl_workspace/device-selector
+ 1299  ls
+ 1300  vim device-selector.cpp
+ 1301  make
+ 1302  ./device-selector
+ 1303  vim device-selector.cpp
+ 1304  top
+ 1305  ls
+ 1306  vim ~/env/sycl.sh
+ 1307  vim ~/env/llvm@14.0.2.sh
+ 1308  vim ~/install/sycl_workspace/llvm
+ 1309  vim ~/env/llvm@14.0.2.sh
+ 1310  vim ~/env/sycl.sh
+ 1311  exit
+ 1312  cd install/llvm-14.0.2/bin
+ 1313  ls
+ 1314  which clang++
+ 1315  export | grep CXX
+ 1316  echo $CXX
+ 1317  exit
+ 1318  cd install/sycl_workspace/
+ 1319  ls
+ 1320  source ~/env/sycl.sh
+ 1321  mkdir get-devices
+ 1322  cd get-devices
+ 1323  vim get-devices
+ 1324  vim get-devices.cpp
+ 1325  cp ../device-selector/Makefile .
+ 1326  vim Makefile
+ 1327  which nvcc
+ 1328  vim Makefile
+ 1329  make
+ 1330  ./get-devices
+ 1331  history | grep sycl
+ 1332  sylc-ls
+ 1333  sycl-ls
+ 1334  sycl-ls -v
+ 1335  sycl-ls --verbose
+ 1336  ls
+ 1337  cd ..
+ 1338  ls
+ 1339  cd ..
+ 1340  ls
+ 1341  cd sycl_workspace/llvm/ls
+ 1342  cd sycl_workspace/llvm/
+ 1343  ls
+ 1344  vim rebuild.sh
+ 1345  bash rebuild.sh
+ 1346  sycl-ls --verbose
+ 1347  nvidia-smi
+ 1348  exit
+ 1349  ls
+ 1350  cd workspace/sycl-bench
+ 1351  ls
+ 1352  source ~/env/sycl.sh
+ 1353  ls
+ 1354  cd build
+ 1355  ls
+ 1356  ./lin_reg_error --device=gpu --no-verification
+ 1357  squeue
+ 1358  nvidia-smi
+ 1359  ./lin_reg_error --device=gpu --no-verification
+ 1360  ./lin_reg_coeff --device=gpu --no-verification
+ 1361  ls
+ 1362  cd install
+ 1363  ls
+ 1364  git clone git@github.com:zjin-lcf/Rodinia_SYCL.git
+ 1365  ls
+ 1366  git clone git@github.com:illuhad/hipSYCL.git
+ 1367  ls
+ 1368  cd hipSYCL
+ 1369  ls
+ 1370  source ~/env/llvm@14.0.2.sh
+ 1371  spack load cuda@11.4.2
+ 1372  vim rebuild.sh
+ 1373  bash rebuild.sh
+ 1374  mkdir build
+ 1375  bash rebuild.sh
+ 1376  spack load cmake@3.21.4
+ 1377  spack load cmake@3.18.4
+ 1378  vim rebuild.sh
+ 1379  bash rebuild.sh
+ 1380  spack find | grep boost
+ 1381  cd ..
+ 1382  ls
+ 1383  wget https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.gz
+ 1384  tar -zxvf boost_1_77_0.tar.gz
+ 1385  cd boost_1_77_0
+ 1386  ls
+ 1387  /bootstrap.sh --with-libraries=all
+ 1388  ./bootstrap.sh --with-libraries=all
+ 1389  cd ..
+ 1390  cd boost_1_77_0
+ 1391  pwd
+ 1392  ./bootstrap.sh --with-libraries=all --prefix=/home/lijianwen/install/boost_1_77_0
+ 1393  ./b2 install -a --with=all
+ 1394  find . -name so
+ 1395  find . -name *.so
+ 1396  find . -name "*.so"
+ 1397  cd ..
+ 1398  ls
+ 1399  vim rebuild.sh
+ 1400  cd hipSYCL
+ 1401  vim rebuild.sh
+ 1402  bash rebuild.sh
+ 1403  vim ~/env/llvm@14.0.2.sh
+ 1404  source ~/env/llvm@14.0.2.sh
+ 1405  bash rebuild.sh
+ 1406  echo $C_INCLUDE_PATH
+ 1407  vim ~/env/llvm@14.0.2.sh
+ 1408  source ~/env/llvm@14.0.2.sh
+ 1409  ls /home/lijianwen/install/llvm-14.0.2/include
+ 1410  bash rebuild.sh
+ 1411  ls /home/lijianwen/install/llvm-14.0.2/include
+ 1412  cd ..
+ 1413  ls
+ 1414  cd llvm-14.0.2
+ 1415  ls
+ 1416  cd ..
+ 1417  ls
+ 1418  history | grep llvm
+ 1419  ls
+ 1420  rm boost_1_77_0.tar.gz
+ 1421  ls
+ 1422  spack find | grep llvm
+ 1423  rm -rf llvm-14.0.2
+ 1424  mkdir llvm-14.0.2
+ 1425  wget https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.2/llvm-project-14.0.2.src.tar.xz
+ 1426  ls
+ 1427  tar -zvf  llvm-project-14.0.2.src.tar.xz
+ 1428  tar -xvf  llvm-project-14.0.2.src.tar.xz
+ 1429  cd llvm-project-14.0.2.src/
+ 1430  mkdir build
+ 1431  cd build
+ 1432  vim rebuild.sh
+ 1433  which clang
+ 1434  clang -v
+ 1435  exit
+ 1436  cd install/llvm-project-14.0.2.src/build
+ 1437  ls
+ 1438  vim rebuild.sh
+ 1439  bash rebuild.sh
+ 1440  spack load cmake@3.18.4
+ 1441  bash rebuild.sh
+ 1442  cd ..
+ 1443  source ~/env/llvm@14.0.2.sh
+ 1444  cd ..
+ 1445  ls
+ 1446  cd hipSYCL
+ 1447  bash rebuild.sh
+ 1448  ls
+ 1449  cd ..
+ 1450  ls
+ 1451  vim env
+ 1452  cd env
+ 1453  ls
+ 1454  mv sycl.sh dpc++.sh
+ 1455  vim hipSYCL.sh
+ 1456  exit
+ 1457  source ~/env/hipSYCL.sh
+ 1458  vim env/hipSYCL.sh
+ 1459  source ~/env/hipSYCL.sh
+ 1460  vim env/hipSYCL.sh
+ 1461  source ~/env/hipSYCL.sh
+ 1462  vim env/hipSYCL.sh
+ 1463  source ~/env/hipSYCL.sh
+ 1464  nvcc --version
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  cd lijianwen
+ 1469  ls
+ 1470  nvidia-smi
+ 1471  cd workspace
+ 1472  ls
+ 1473  cd sycl-bench
+ 1474  ls
+ 1475  mkdir build-hipsycl
+ 1476  cd build-hipsycl
+ 1477  cmake -DSYCL_IMPL=hipSYCL -DHIPSYCL_TARGETS="omp.library-only;cuda.explicit-multipass:sm_70" ..
+ 1478  spack load cmake@3.18.4
+ 1479  cmake -DSYCL_IMPL=hipSYCL -DHIPSYCL_TARGETS="omp.library-only;cuda.explicit-multipass:sm_70" ..
+ 1480  cd ..
+ 1481  ls
+ 1482  cd ..
+ 1483  cd ins
+ 1484  cd ../install/hipSYCL
+ 1485  ls
+ 1486  cd build
+ 1487  make install
+ 1488  cd ~/workspace/sycl-bench/build-hipsycl
+ 1489  cmake -DSYCL_IMPL=hipSYCL -DHIPSYCL_TARGETS="omp.library-only;cuda.explicit-multipass:sm_70" ..
+ 1490  sycl-ls --verbose
+ 1491  source ~/env/hipSYCL.sh
+ 1492  cd ~/install/hipSYCL
+ 1493  ls
+ 1494  cd bin
+ 1495  ls
+ 1496  pwd
+ 1497  vim ~/env/hipSYCL.sh
+ 1498  source ~/env/hipSYCL.sh
+ 1499  cd ..
+ 1500  ls
+ 1501  cd ~/workspace/sycl-bench/build-hipsycl
+ 1502  ls
+ 1503  cmake -DSYCL_IMPL=hipSYCL -DHIPSYCL_TARGETS="omp.library-only;cuda.explicit-multipass:sm_70" ..
+ 1504  make -j32
+ 1505  /vec_add --device=gpu --num-runs=10
+ 1506  ./vec_add --device=gpu --num-runs=10
+ 1507  nvidia-smi
+ 1508  watch nvidia-smi
+ 1509  ./vec_add --device=gpu --num-runs=10
+ 1510  CUDA_VISIBLE_DEVICES=0 ./vec_add --device=gpu --num-runs=10
+ 1511  history | grep CUDA
+ 1512  CUDA_VISIBLE_DEVICES=0 ./vec_add --device=gpu --num-runs=10
+ 1513  ./3DConvolution --device=gpu --num-runs=10
+ 1514  CUDA_VISIBLE_DEVICES=0 ./3DConvolution --device=gpu --num-runs=10
+ 1515  squeue
+ 1516  nvidia-smi
+ 1517  ls
+ 1518  cd ..
+ 1519  ls
+ 1520  cd build-hipsycl
+ 1521  make -j32
+ 1522  cd ..
+ 1523  python3 script/benchmark.py 
+ 1524  source ~/env/hipSYCL.sh
+ 1525  python3 script/benchmark.py 
+ 1526  python3
+ 1527  nvidia-smi
+ 1528  python3
+ 1529  source ~/env/dpc++.sh
+ 1530  sycl-ls
+ 1531  ls
+ 1532  exit
+ 1533  s
+ 1534  ls
+ 1535  cd workspace
+ 1536  ls
+ 1537  squeue
+ 1538  nvidia-smi
+ 1539  ls
+ 1540  cd ..
+ 1541  ls
+ 1542  cd install
+ 1543  ls
+ 1544  source ~/env/dpc++.sh
+ 1545  which clang++
+ 1546  sycl-ls
+ 1547  ls
+ 1548  cd ..
+ 1549  ls
+ 1550  cd workspace
+ 1551  ls
+ 1552  mkdir test
+ 1553  cd test
+ 1554  ls
+ 1555  pwd
+ 1556  cd eltwise_reproducer_cuda_release
+ 1557  ls
+ 1558  rm -rf clang
+ 1559  ls
+ 1560  source ~/env/dpc++.sh
+ 1561  nvidia-smi
+ 1562  nvcc -O3 eltwise.cu
+ 1563  ./a.out
+ 1564  cd ../eltwise_reproducer_dpct
+ 1565  ls
+ 1566  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_70 -save-temps eltwise.dp.cpp
+ 1567  rm libsycl-*
+ 1568  ls
+ 1569  rm eltwise.dp-*
+ 1570  ls
+ 1571  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_70 eltwise.dp.cpp
+ 1572  ./a.out
+ 1573  cd ../eltwise_reproducer_cuda_release
+ 1574  ls
+ 1575  ./a.out
+ 1576  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_80 eltwise.dp.cpp
+ 1577  ./a.out
+ 1578  git pull
+ 1579  git config pull.rebase false
+ 1580  git config pull.rebase true
+ 1581  cd ..
+ 1582  ls
+ 1583  cd ..
+ 1584  ls
+ 1585  cd ../install
+ 1586  ls
+ 1587  rm -rf sycl_workspace/llvm
+ 1588  cd sycl_workspace
+ 1589  ls
+ 1590  mkdir examples
+ 1591  mv device-selector examples
+ 1592  mv get-devices examples
+ 1593  mv simple-sycl-app/ examples
+ 1594  ls
+ 1595  git clone git@github.com:intel/llvm.git
+ 1596  cd llvm
+ 1597  ls
+ 1598  spack load cuda@11.4.2
+ 1599  vim rebuild.sh
+ 1600  bash rebuild.sh
+ 1601  ls
+ 1602  spack load --sh cmake@3.18.4
+ 1603  DPCPP_HOME=/home/lijianwen/install/sycl_workspace
+ 1604  CUDA_ROOT=$(spack find --paths cuda@11.4.2 | awk 'NR>1 {print $2}')
+ 1605  echo $CUDA_ROOT
+ 1606  CUDA_LIB_PATH=$CUDA_ROOT/lib64/stubs CC=gcc CXX=g++ python $DPCPP_HOME/llvm/buildbot/configure.py --cuda --cmake-opt="-DCUDA_TOOLKIT_ROOT_DIR=$CUDA_ROOT"
+ 1607  pwd
+ 1608  cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=ON -DLLVM_TARGETS_TO_BUILD=X86;NVPTX -DLLVM_EXTERNAL_PROJECTS=sycl;llvm-spirv;opencl;xpti;xptifw;libdevice;sycl-fusion -DLLVM_EXTERNAL_SYCL_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/sycl -DLLVM_EXTERNAL_LLVM_SPIRV_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/llvm-spirv -DLLVM_EXTERNAL_XPTI_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/xpti -DXPTI_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/xpti -DLLVM_EXTERNAL_XPTIFW_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/xptifw -DLLVM_EXTERNAL_LIBDEVICE_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/libdevice -DLLVM_EXTERNAL_SYCL_FUSION_SOURCE_DIR=/home/lijianwen/install/sycl_workspace/llvm/sycl-fusion -DLLVM_ENABLE_PROJECTS=clang;sycl;llvm-spirv;opencl;xpti;xptifw;libdevice;sycl-fusion;libclc -DLIBCLC_TARGETS_TO_BUILD=;nvptx64--;nvptx64--nvidiacl -DLIBCLC_GENERATE_REMANGLED_VARIANTS=ON -DSYCL_BUILD_PI_HIP_PLATFORM=AMD -DLLVM_BUILD_TOOLS=ON -DSYCL_ENABLE_WERROR=OFF -DCMAKE_INSTALL_PREFIX=/home/lijianwen/install/sycl_workspace/llvm/build/install -DSYCL_INCLUDE_TESTS=ON -DLLVM_ENABLE_DOXYGEN=OFF -DLLVM_ENABLE_SPHINX=OFF -DBUILD_SHARED_LIBS=OFF -DSYCL_ENABLE_XPTI_TRACING=ON -DLLVM_ENABLE_LLD=OFF -DXPTI_ENABLE_WERROR=OFF -DSYCL_CLANG_EXTRA_FLAGS= -DSYCL_ENABLE_PLUGINS=level_zero;cuda;opencl -DSYCL_ENABLE_KERNEL_FUSION=ON -DCUDA_TOOLKIT_ROOT_DIR=/home/spack/spack/opt/spack/linux-debian11-zen2/gcc-10.2.1/cuda-11.4.2-hofm3w2z7dlj4oxzmcekzb3dlvnxdzox /home/lijianwen/install/sycl_workspace/llvm/llvm
+ 1609  CUDA_LIB_PATH=$CUDA_ROOT/lib64/stubs CC=gcc CXX=g++ python $DPCPP_HOME/llvm/buildbot/configure.py --cuda --cmake-opt="-DCUDA_TOOLKIT_ROOT_DIR=$CUDA_ROOT"
+ 1610  bash rebuild.sh
+ 1611  cd ..
+ 1612  b
+ 1613  bash rebuild.sh
+ 1614  which cmake
+ 1615  cmake
+ 1616  cmake --version
+ 1617  spack load cmake@3.18.4
+ 1618  spack find --loaded
+ 1619  bash rebuild.sh
+ 1620  cd ..
+ 1621  bash rebuild.sh
+ 1622  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_80 eltwise.dp.cpp
+ 1623  which clang++
+ 1624  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_80 eltwise.dp.cpp
+ 1625  ./a.out
+ 1626  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_80 eltwise.dp.cpp
+ 1627  ./a.out
+ 1628  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_80 eltwise.dp.cpp
+ 1629  ./a.out
+ 1630  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_70 -ptx eltwise.dp.cpp
+ 1631  nvcc -O3 -arch=compute_80 -code=sm_80 -ptx eltwise.cu
+ 1632  spack load cuda@11.4.2
+ 1633  nvcc -O3 -arch=compute_80 -code=sm_80 -ptx eltwise.cu
+ 1634  ./a.out
+ 1635  cd for-del
+ 1636  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_70 -save-temps eltwise.dp.cpp
+ 1637  ./a.out
+ 1638  nsys profile --force-overwrite true -o eltwise_sycl_a100 ./a.out
+ 1639  nvidia-smi
+ 1640  nsys profile --force-overwrite true -o eltwise_sycl_a100 ./a.out
+ 1641  squeue
+ 1642  nvidia-smi
+ 1643  CUDA_VISIBLE_DEVICE=0 nsys profile --force-overwrite true -o eltwise_sycl_a100 ./a.out 
+ 1644  nvidia-smi
+ 1645  CUDA_VISIBLE_DEVICES=0 ./a.out
+ 1646  watch nvidia-smi
+ 1647  CUDA_VISIBLE_DEVICES=0 nsys profile --force-overwrite true -o eltwise_sycl_a100 ./a.out
+ 1648  exit
+ 1649  CUDA_VISIBLE_DEVICES=0 nsys profile --force-overwrite true -o eltwise_cuda_a100 ./a.out
+ 1650  CUDA_VISIBLE_DEVICES=0 nsys profile --force-overwrite true -o eltwise_cuda_a100 ./a.out
+ 1651  nvcc- 
+ 1652  nvcc -c
+ 1653  nvcc -v
+ 1654  nvcc --version
+ 1655  spack unload cuda@11.4.2
+ 1656  spack load cuda@11.7.1
+ 1657  nvcc -O3 -arch=compute_80 -code=sm_80 -ptx eltwise.cu
+ 1658  nsys profile --force-overwrite true -o eltwise_sycl_a100 ./a.out
+ 1659  CUDA_VISIBLE_DEVICES=0 ./a.out
+ 1660  pwd
+ 1661  cd ..
+ 1662  pwd
+ 1663  CUDA_VISIBLE_DEVICES=0 ./a.out
+ 1664  clang++ -O3 -fsycl -fsycl-targets=nvptx64-nvidia-cuda -Xsycl-target-backend --cuda-gpu-arch=sm_70 -save-temps eltwise.dp.cpp
+ 1665  clear
+ 1666  squeue
+ 1667  sinfo
+ 1668  nvidia-smi
+ 1669  clear
+ 1670  ls
+ 1671  cd install
+ 1672  ls
+ 1673  cd sycl_workspace
+ 1674  ls
+ 1675  cd llvm/
+ 1676  ls
+ 1677  clear
+ 1678  ls
+ 1679  cd llvm
+ 1680  ls
+ 1681  git pull
+ 1682  git config pull.rebase false
+ 1683  ls
+ 1684  clear
+ 1685  tmux attach
+ 1686  tmux
+ 1687  bash rebuild.sh
+ 1688  tmux attach
+ 1689  source ~/env/dpc++.sh
+ 1690  cd ..
+ 1691  cd ../sycl_workspace
+ 1692  ls
+ 1693  cd ../../workspace
+ 1694  ls
+ 1695  cd ge
+ 1696  cd test
+ 1697  ls
+ 1698  cd ..
+ 1699  ls
+ 1700  rm -rf test
+ 1701  git clone git@github.com:leikinman/Rodinia.git
+ 1702  mkdir build
+ 1703  cd build
+ 1704  source ~/env/dpc++.sh
+ 1705  vim ~/env/dpc++.sh
+ 1706  vim ~/install/sycl_workspace/llvm
+ 1707  vim ~/install/sycl_workspace/llvm/rebuild.sh
+ 1708  source ~/env/dpc++.sh
+ 1709  cmake ..
+ 1710  exit
+ 1711  which clang++
+ 1712  exit
+ 1713  source ~/env/dpc++.sh
+ 1714  cd build/
+ 1715  cmake ..
+ 1716  which clang
+ 1717  cmake ..
+ 1718  echo $CXX
+ 1719  vim ~/env/dpc++.sh
+ 1720  cmake ..
+ 1721  exit
+ 1722  cd build
+ 1723  cmake ..
+ 1724  source ~/env/dpc++.sh
+ 1725  cmake ..
+ 1726  cd ..
+ 1727  rm -rf build/*
+ 1728  rm -rf build
+ 1729  mkdir build
+ 1730  cd build
+ 1731  ls
+ 1732  cmake ..
+ 1733  make -j4
+ 1734  cd sycl/b+tree/
+ 1735  ls
+ 1736  cd ..
+ 1737  cd sycl
+ 1738  ls
+ 1739  cd ..
+ 1740  mkdir data
+ 1741  ls
+ 1742  scp -r lijianwen@yes://home/lijianwen/workspace/c2s-test/rodinia_3.1/data/bfs .
+ 1743  scp -r lijianwen@yes://home/lijianwen/workspace/c2s-test/rodinia_3.1/data/b+tree .
+ 1744  cd build/sycl/b+tree
+ 1745  ls
+ 1746  cd ~/workspace/Rodinia/data
+ 1747  ls
+ 1748  cd ..
+ 1749  ls
+ 1750  mv b+tree data
+ 1751  ls
+ 1752  cd data
+ 1753  ls
+ 1754  exit
+ 1755  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1756  cd ..
+ 1757  cmake ..
+ 1758  make -j4
+ 1759  ls
+ 1760  make -j4
+ 1761  cd cuda/b+tree
+ 1762  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1763  cd ..
+ 1764  cd sycl/b+tree/
+ 1765  make -j4
+ 1766  make clean
+ 1767  make -j4
+ 1768  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1769  make -j4
+ 1770  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1771  make -j4
+ 1772  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 1773  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1774  make -j4
+ 1775  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 1776  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1777  nsys profile --force-overwrite true -o b+tree_sycl_a100 ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1778  spack load cuda@11.7.1
+ 1779  which nvcc
+ 1780  nsys profile --force-overwrite true -o b+tree_sycl_a100 ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1781  exit
+ 1782  cd ..
+ 1783  cd cuda/b+tree
+ 1784  nsys profile --force-overwrite true -o b+tree_cuda_a100 ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1785  cd ../../sycl/b+tree
+ 1786  ls
+ 1787  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1788  make -j4
+ 1789  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1790  nsys profile --force-overwrite true -o b+tree_cuda_a100 ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1791  cd ..
+ 1792  cd ../cuda/b+tree
+ 1793  ls
+ 1794  cd kernel
+ 1795  ls
+ 1796  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1797  nvcc -arch=compute_80 -code=sm_80 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1798  cd ../../../build/sycl/b+tree
+ 1799  ls
+ 1800  mv b+tree_cuda_a100.nsys-rep b+tree_sycl_a100.nsys-rep
+ 1801  make -j4
+ 1802  nsys profile --force-overwrite true -o b+tree_sycl_a100 ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1803  cd ../../../cuda/b+tree
+ 1804  cd kernel
+ 1805  ls
+ 1806  nvcc -arch=compute_80 -code=sm_80 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1807  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1808  ls
+ 1809  diff kernel_gpu_cuda_wrapper_2.ptx kernel_gpu_cuda_wrapper_2_sm80.ptx
+ 1810  diff kernel_gpu_cuda_wrapper_2_sm70.ptx kernel_gpu_cuda_wrapper_2_sm80.ptx
+ 1811  source ~/env/dpc++.sh
+ 1812  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1813  cd cuda/b+tree/kernel
+ 1814  ls
+ 1815  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1816  diff kernel_gpu_cuda_wrapper_2.ptx kernel_gpu_cuda_wrapper_2_sm70.ptx
+ 1817  nvcc -arch=compute_80 -code=sm_80 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1818  which nvcc
+ 1819  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1820  nvcc -arch=compute_80 -code=sm_80 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1821  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1822  nvcc -arch=compute_80 -code=sm_80 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1823  nvcc -arch=compute_70 -code=sm_70 kernel_gpu_cuda_wrapper_2.cu -O3 -ptx
+ 1824  cd workspace/Rodinia/cuda/b+tree
+ 1825  ls
+ 1826  cd ../../../cuda/b+tree
+ 1827  cd ../../build/cuda/b+tree
+ 1828  ls
+ 1829  scp -r lijianwen@yes:/home/lijianwen/workspace/Rodinia/cuda/b+tree/b+tree .
+ 1830  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1831  scp -r lijianwen@yes:/home/lijianwen/workspace/Rodinia/cuda/b+tree/b+tree .
+ 1832  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1833  scp -r lijianwen@yes:/home/lijianwen/workspace/Rodinia/cuda/b+tree/b+tree .
+ 1834  ./b+tree file ../../../data/b+tree/mil.txt command ../../../data/b+tree/command.txt
+ 1835  ls
+ 1836  nvidia-smi --help
+ 1837  vidia-smi nvlink -h
+ 1838  nvidia-smi nvlink -h
+ 1839  nvidia-smi [200~nvidia-smi topo -h~
+ 1840  nvidia-smi topo -h
+ 1841  nvidia-smi topo -h -m
+ 1842  nvidia-smi topo -m
+ 1843  nvidia-smi
+ 1844  hyop
+ 1845  htop
+ 1846  nvidia-smi
+ 1847  nvidia-smi topo -m
+ 1848  top
+ 1849  nvidia-smi
+ 1850  watch nvidia-smi
+ 1851  nvidia-smi
+ 1852  top
+ 1853  htop
+ 1854  ls
+ 1855  top
+ 1856  htop
+ 1857  top
+ 1858  htop
+ 1859  nvidia-smi topo -m
+ 1860  ls
+ 1861  df -h
+ 1862  eit
+ 1863  exit
+ 1864  nvidia-smi
+ 1865  top
+ 1866  nvidia-smi
+ 1867  top
+ 1868  squeue
+ 1869  ls
+ 1870  cd code
+ 1871  ls
+ 1872  cd tiny
+ 1873  ls
+ 1874  cd ..
+ 1875  ls
+ 1876  cd ..
+ 1877  ls
+ 1878  cd install
+ 1879  ls
+ 1880  cd sycl_workspace
+ 1881  ls
+ 1882  cd ..
+ 1883  ls
+ 1884  mkdir tar
+ 1885  mv llvm-project-14.0.2.src tar
+ 1886  ls
+ 1887  mv llvm-project-14.0.2.src.tar.xz tar
+ 1888  ls
+ 1889  cd tar
+ 1890  ls
+ 1891  cd ..
+ 1892  ls
+ 1893  cd ..
+ 1894  ls
+ 1895  top
+ 1896  nvidia-smi
+ 1897  nvidia-smi -m topo
+ 1898  nvidia-smi --help | grep topo
+ 1899  nvidia-smi topo -m
+ 1900  clear
+ 1901  squeue
+ 1902  sinfo
+ 1903  clear
+ 1904  conda env list
+ 1905  conda rm env torch-debug
+ 1906  conda env remove -n torch-debug
+ 1907  ls
+ 1908  conda env list
+ 1909  ls
+ 1910  which spack
+ 1911  cd install
+ 1912  ls
+ 1913  vim ~/.zshrc
+ 1914  spack find libxsmm
+ 1915  spack find
+ 1916  ls
+ 1917  git clone git@github.com:libxsmm/tpp-pytorch-extension.git
+ 1918  cd tpp-pytorch-extension
+ 1919  ls
+ 1920  git submodule update --init
+ 1921  ls
+ 1922  cd libxsmm
+ 1923  ls
+ 1924  cd ..
+ 1925  ls
+ 1926  rm libxsmm
+ 1927  git clone git@github.com:libxsmm/libxsmm.git
+ 1928  git submodule update --init
+ 1929  conda create --name tpp python==3.9
+ 1930  conda activate tpp
+ 1931  which python3
+ 1932  python3 setup.py install
+ 1933  python3 -m pip install torch==1.8.1
+ 1934  python3 setup.py install
+ 1935  python3 -m pip install torch==1.7.0
+ 1936  python3 -m pip install torch==1.7.1
+ 1937  python3 setup.py install
+ 1938  python3 -m pip install torch==1.7.0
+ 1939  python3 -m pip install torch==1.13.0
+ 1940  python3 setup.py install
+ 1941  python3
+ 1942  ls
+ 1943  conda activate base
+ 1944  conda rm env tpp
+ 1945  conda env remove -n tpp
+ 1946  ls
+ 1947  bash utils/setup_conda.sh
+ 1948  ls
+ 1949  rm Miniconda3-latest-Linux-x86_64.sh
+ 1950  ls
+ 1951  vim utils/setup_conda.sh
+ 1952  which conda
+ 1953  where conda
+ 1954  vim utils/setup_conda.sh
+ 1955  where conda
+ 1956  vim utils/setup_conda.sh
+ 1957  bash utils/setup_conda.sh
+ 1958  /home/lijianwen/miniconda3/bin/conda/bin/activate
+ 1959  vim utils/setup_conda.sh
+ 1960  bash utils/setup_conda.sh
+ 1961  conda env list
+ 1962  vim utils/setup_conda.sh
+ 1963  bash utils/setup_conda.sh
+ 1964  vim utils/setup_conda.sh
+ 1965  ls
+ 1966  cd code
+ 1967  ls
+ 1968  mkdir test
+ 1969  cd test
+ 1970  ls
+ 1971  python3 -m pip install triton
+ 1972  ls
+ 1973  cd ..
+ 1974  ls
+ 1975  squeue
+ 1976  nvidia-smi
+ 1977  python3 softmax.py
+ 1978  python3 -m pip install numpy
+ 1979  python3 softmax.py
+ 1980  squeue
+ 1981  nvidia-smi
+ 1982  python3 softmax.py
+ 1983  python3 softmax_becnh.py
+ 1984  ls
+ 1985  rm softmax_becnh.py
+ 1986  git clone git@github.com:openai/triton.git
+ 1987  exit
+ 1988  conda activate base
+ 1989  python3 -m pip install matplotlib
+ 1990  python3 -m pip install pandas
+ 1991  nvidia-smi
+ 1992  squeue
+ 1993  nvidia-smi
+ 1994  ps
+ 1995  nvidia-smi
+ 1996  top
+ 1997  cd python/tutorials
+ 1998  ls
+ 1999  export CUDA_VISIBLE_DEVICES=3
+ 2000  nvidia-smi
+ 2001  export CUDA_VISIBLE_DEVICES=4
+ 2002  nvidia-smi
+ 2003  python3 02-fused-softmax.py
+ 2004  conda activate base
+ 2005  nvidia-smi
+ 2006  export CUDA_VISIBLE_DEVICES=5
+ 2007  python3 02-fused-softmax.py
+ 2008  nvidia-smi
+ 2009  python3 02-fused-softmax.py
+ 2010  conda activate base
+ 2011  python3
+ 2012  ls
+ 2013  cd python/tutorials
+ 2014  ls
+ 2015  nvidia-smi
+ 2016  CUDA_VISIBLE_DEVICES=3 python3 06-fused-attention.py
+ 2017  python3 -m pip install pytest
+ 2018  CUDA_VISIBLE_DEVICES=3 python3 06-fused-attention.py
+ 2019  nvidia-smi
+ 2020  conda activate base
+ 2021  top
+ 2022  which python3
+ 2023  cd ~
+ 2024  ls
+ 2025  CUDA_VISIBLE_DEVICES=3 python3 05-layer-norm.py
+ 2026  CUDA_VISIBLE_DEVICES=3 python3 07-math-functions.py
+ 2027  ls
+ 2028  clear
+ 2029  ls
+ 2030  nvidia-smi
+ 2031  otp
+ 2032  top
+ 2033  nvidia-smi --help
+ 2034  nvidia-smi -u
+ 2035  lear
+ 2036  clear
+ 2037  nvidia-smi --help
+ 2038  nvidia-smi
+ 2039  conda create -n coati
+ 2040  conda create -n coati python=3.9
+ 2041  conda activate coati
+ 2042  python3 -m pip install colossalai
+ 2043  cd code
+ 2044  ls
+ 2045  git clone git@github.com:hpcaitech/ColossalAI.git
+ 2046  ls
+ 2047  cd ColossalAI
+ 2048  ls
+ 2049  cd applications
+ 2050  ls
+ 2051  python3 -m pip install .
+ 2052  cd Chat
+ 2053  python3 -m pip install .
+ 2054  cd ..
+ 2055  git clone https://github.com/hpcaitech/transformers
+ 2056  cd transformers
+ 2057  ls
+ 2058  python3 -m pip install .
+ 2059  nvidia-smi
+ 2060  cd applications/Chat/benchmarks
+ 2061  ls
+ 2062  conda activate coati
+ 2063  nvidia-smi
+ 2064  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 6b
+ 2065  nvidia-smi
+ 2066  conda activate coati
+ 2067  cd ..
+ 2068  python3 -m pip install .
+ 2069  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 6b
+ 2070  python3 -m pip install . -e
+ 2071  python3 -m pip install -e .
+ 2072  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 6b
+ 2073  nvidia-smi
+ 2074  watch nvidia-smi
+ 2075  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 4b
+ 2076  spack load cuda@11.8.0
+ 2077  echo $CUDA_HOME
+ 2078  spack load cuda@11.8.0
+ 2079  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 4b
+ 2080  exit
+ 2081  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 m
+ 2082  ls
+ 2083  mkdir datasets
+ 2084  pwd
+ 2085  cd datasets
+ 2086  pwd
+ 2087  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 m
+ 2088  cd ..
+ 2089  ls
+ 2090  cd applications
+ 2091  ls
+ 2092  cd Chat
+ 2093  ls
+ 2094  python3 -m pip install -e .
+ 2095  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 m
+ 2096  python3
+ 2097  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 m
+ 2098  nvidia-smi
+ 2099  watch nvidia-smi | tail -n 10
+ 2100  watch nvidia-smi
+ 2101  CUDA_VISIBLE_DEVICES=5 bash benchmark_gpt_dummy.sh 1 colossalai_zero2 s
+ 2102  ls
+ 2103  cat /home/zhongrx/kill.sh
+ 2104  ls
+ 2105  find /home/zhongrx/ -n mttkrp
+ 2106  find /home/zhongrx/ -name mttkrp
+ 2107  cat /home/zhongrx/sparse_dense/my/new/
+ 2108  ls /home/zhongrx/sparse_dense/my/new/
+ 2109  cat /home/zhongrx/sparse_dense/my/new/dbg.h
+ 2110  ls
+ 2111  nvidia-smi
+ 2112  top
+ 2113  nvidia-smi
+ 2114  top
+ 2115  nvidia-smi
+ 2116  tmux attach
+ 2117  tmux
+ 2118  conda activate coati
+ 2119  ls
+ 2120  cd applications/Chat/benchmarks
+ 2121  ls
+ 2122  tmux attach
+ 2123  nvidia-smi
+ 2124  tmux attach
+ 2125  nvidia-smi
+ 2126  tmux attach
+ 2127  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_gemini_cpu s
+ 2128  top
+ 2129  nvidia-smi
+ 2130  tmux attach
+ 2131  CUDA_VISIBLE_DEVICES=3 bash benchmark_gpt_dummy.sh 1 colossalai_gemini_cpu s
+ 2132  spack load cuda@11.8.0
+ 2133  spack unload cuda@11.8.0
+ 2134  spack load cuda@11.7.1
+ 2135  CUDA_VISIBLE_DEVICES=3 bash benchmark_gpt_dummy.sh 1 colossalai_gemini_cpu s
+ 2136  CUDA_VISIBLE_DEVICES=3 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2137  tmux attach
+ 2138  nvidia-smi
+ 2139  watch nvidia-smi
+ 2140  tmux attach
+ 2141  nvidia-smi --hepl
+ 2142  nvidia-smi --help
+ 2143  nvidia-smi nvlink
+ 2144  nvidia-smi --help
+ 2145  nvidia-smi -L
+ 2146  nvidia-smi
+ 2147  tmux attach
+ 2148  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2149  nvidia-smi
+ 2150  tmux attach
+ 2151  nvidia-smi
+ 2152  tmux attach
+ 2153  nvidia-smi
+ 2154  watch nvidia-smi
+ 2155  tmux attach
+ 2156  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_gemini_cpu s
+ 2157  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2158  nvidia-smi
+ 2159  tmux attach
+ 2160  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2161  tmux attach
+ 2162  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2163  nvidia-smi
+ 2164  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2165  nvidia-smi
+ 2166  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2167  nvidia-smi
+ 2168  watch nvidia-smi
+ 2169  tmux attach
+ 2170  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2171  tmux attach
+ 2172  ls
+ 2173  tmux
+ 2174  spack load cuda@11.7.1
+ 2175  conda activate coati
+ 2176  ls
+ 2177  cd applications/Chat/benchmarks
+ 2178  ls
+ 2179  nvidia-smi
+ 2180  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2181  nvidia-smi
+ 2182  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu m
+ 2183  nvidia-smi
+ 2184  watch nvidia-smi
+ 2185  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu m
+ 2186  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu 4b
+ 2187  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu l
+ 2188  /usr/bin/python3
+ 2189  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu l
+ 2190  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2191  python3
+ 2192  cd applications/Chat/benchmarks
+ 2193  python3 test.py
+ 2194  tmux attach
+ 2195  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2196  python3 test.py
+ 2197  tmux attach
+ 2198  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2199  python3
+ 2200  tmux attach
+ 2201  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu s
+ 2202  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu l
+ 2203  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu 4b
+ 2204  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu 6b
+ 2205  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu l
+ 2206  CUDA_VISIBLE_DEVICES=6 bash benchmark_gpt_dummy.sh 1 colossalai_zero2_cpu xl
+ 2207  find . -name opencl
+ 2208  exit
+ 2209  cd code
+ 2210  ls
+ 2211  git clone https://github.com/microsoft/DeepSpeed.git
+ 2212  git clone git@github.com/microsoft/DeepSpeed.git
+ 2213  ls
+ 2214  git clone git@github.com:microsoft/DeepSpeed.git
+ 2215  git clone git@github.com:microsoft/DeepSpeedExamples.git
+ 2216  ls
+ 2217  cd DeepSpeed
+ 2218  conda create -n deepspeed python=3.9
+ 2219  cd DeepSpeed
+ 2220  conda activate deepspeed
+ 2221  python3 -m pip install -e .
+ 2222  python3 -m pip install .
+ 2223  spack load cuda@11.7.1
+ 2224  python3 -m pip install .
+ 2225  cd ..
+ 2226  cd DeepSpeedExamples/applications/DeepSpeed-Chat/
+ 2227  pip install -r requirements.txt
+ 2228  conda activate deepspeed
+ 2229  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --num-gpus 1
+ 2230  cd applications/DeepSpeed-Chat
+ 2231  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --num-gpus 8
+ 2232  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --num-gpus 8 --step 3
+ 2233  vim requirements.txt
+ 2234  python3 -m pip install .
+ 2235  which pip
+ 2236  python3 -m pip install -r requirements.txt
+ 2237  vim requirements.txt
+ 2238  python3 -m pip install -r requirements.txt
+ 2239  vim requirements.txt
+ 2240  python3 -m pip install -r requirements.txt
+ 2241  python3 -m pip install transformers
+ 2242  ls
+ 2243  rm output
+ 2244  rm -rf output
+ 2245  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --num-gpus 1
+ 2246  python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1
+ 2247  nvidia-smi
+ 2248  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1
+ 2249  python3 -m pip install datasets
+ 2250  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1
+ 2251  ls
+ 2252  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1
+ 2253  conda activate deepspeed
+ 2254  nvidia-smi
+ 2255  which nvcc
+ 2256  spack load cuda@11.7.1
+ 2257  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1
+ 2258  nvidia-smi
+ 2259  top
+ 2260  nvidia-smi
+ 2261  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1
+ 2262  nvidia-smi
+ 2263  spack load cuda@11.7.1
+ 2264  conda activate deepspeed
+ 2265  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 2
+ 2266  nvidia-smi
+ 2267  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 3
+ 2268  nvidia-smi
+ 2269  watch nvidia-smi
+ 2270  nvidia-smi
+ 2271  ls
+ 2272  cd code
+ 2273  ls
+ 2274  cd ..
+ 2275  ls
+ 2276  cd workspace
+ 2277  ls
+ 2278  cd ..
+ 2279  ls
+ 2280  cd install
+ 2281  ls
+ 2282  cd tpp-pytorch-extension
+ 2283  ls
+ 2284  cd ..
+ 2285  ls
+ 2286  rm -rf tpp-pytorch-extension
+ 2287  ls
+ 2288  rm -rf hipSYCL
+ 2289  ls
+ 2290  cd ..
+ 2291  ls
+ 2292  cd code
+ 2293  ls
+ 2294  cd test
+ 2295  ls
+ 2296  cd ..
+ 2297  ls
+ 2298  rm -rf test
+ 2299  ls
+ 2300  conda activate deepspeed
+ 2301  tmux attach
+ 2302  nvidia-smi
+ 2303  tmux attach
+ 2304  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 3
+ 2305  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 1
+ 2306  ls /home/lijianwen/.cache/huggingface/datasets/Dahoas___parquet/default-b9d2c4937d617106/0.0.0/2a3b91fbd88a2c90d1dbbb32b460cf621d31bd5b05b934492fdef7d8d6f236ec
+ 2307  ls /tmp/data_files/
+ 2308  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 1
+ 2309  python3
+ 2310  exit
+ 2311  conda activate deepspeed
+ 2312  python3
+ 2313  exit
+ 2314  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 1
+ 2315  conda activate deepspeed
+ 2316  tmux attach
+ 2317  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 1
+ 2318  df -h
+ 2319  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 1
+ 2320  ls /tmp/data_files/
+ 2321  ls -lh /tmp/data_files/
+ 2322  rm /tmp/data_files/*
+ 2323  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 1
+ 2324  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 3
+ 2325  conda activate deepspeed
+ 2326  python3 -m pip find deepspeed
+ 2327  python3 -m pip show deepspeed
+ 2328  python3 -m pip install -e .
+ 2329  python3 -m pip show deepspeed
+ 2330  python3 -m pip remove deepspeed
+ 2331  python3 -m pip uninstall deepspeed
+ 2332  python3 -m pip install -e .
+ 2333  spack load cuda@11.7.1
+ 2334  python3 -m pip install -e .
+ 2335  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 1 --step 3
+ 2336  export TOKENIZERS_PARALLELISM=true
+ 2337  nvidia-smi
+ 2338  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2339  deepspeed --help
+ 2340  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2341  conda activate deepspeed
+ 2342  nvidia-smi
+ 2343  top
+ 2344  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2345  nvidia-smi
+ 2346  ls -lh /tmp/data_files/
+ 2347  rm /tmp/data_files/*
+ 2348  cd ..
+ 2349  ls
+ 2350  mkdir tmp
+ 2351  ls
+ 2352  cd tmp
+ 2353  ls
+ 2354  pwd
+ 2355  df -h
+ 2356  cd /mnt/data
+ 2357  ls
+ 2358  mkdir lijianwen
+ 2359  ls
+ 2360  pwd
+ 2361  df -h
+ 2362  mkdir lijianwen
+ 2363  ls
+ 2364  cd huangkz
+ 2365  ls
+ 2366  cd ..
+ 2367  df -h
+ 2368  cd ~
+ 2369  ls
+ 2370  pwd
+ 2371  du -u --max-depth=1 .
+ 2372  du -h --max-depth=1 .
+ 2373  cd install
+ 2374  ls
+ 2375  du -h --max-depth=1 .
+ 2376  cd sycl_workspace
+ 2377  ls
+ 2378  du -h --max-depth=1 .
+ 2379  cd llvm
+ 2380  du -h --max-depth=1 .
+ 2381  cd ..
+ 2382  ls
+ 2383  cd ..
+ 2384  ls
+ 2385  rm -rf sycl_workspace
+ 2386  ls
+ 2387  cd ..
+ 2388  ls
+ 2389  pwd
+ 2390  rm ./tmp
+ 2391  rm ./tmp -rf
+ 2392  cd /mnt/data
+ 2393  ls
+ 2394  cd lynie
+ 2395  ls
+ 2396  cd huangkz
+ 2397  ls
+ 2398  cd ..
+ 2399  ls
+ 2400  cd ..
+ 2401  ls -lh
+ 2402  cd tmp
+ 2403  ls
+ 2404  ls -lh
+ 2405  ls
+ 2406  cd ../data
+ 2407  ls
+ 2408  df -h
+ 2409  cd /mnt/data
+ 2410  cd /dev/shm
+ 2411  ls
+ 2412  cd ~
+ 2413  ls
+ 2414  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2415  du -h --max-depth=1 .
+ 2416  cd .c
+ 2417  cd .cache
+ 2418  ls
+ 2419  rm /tmp/data_files/*
+ 2420  rm -rf ~/tmp/*
+ 2421  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2422  rm -rf ~/tmp/*
+ 2423  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2424  rm -rf ~/tmp/*
+ 2425  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2426  rm -rf ~/tmp/*
+ 2427  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2428  rm -rf ~/tmp/*
+ 2429  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2430  rm -rf ~/tmp/*
+ 2431  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2432  nvidia-smi
+ 2433  rm -rf ~/tmp/*
+ 2434  CUDA_VISIBLE_DEVICES=3,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 2 --step 3
+ 2435  CUDA_VISIBLE_DEVICES=3,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 4 --step 3
+ 2436  nvidia-smi
+ 2437  vim code/DeepSpeedExamples/applications/DeepSpeed-Chat/training/step3_rlhf_finetuning/rlhf_engine.py
+ 2438  sinfo
+ 2439  nvidia-smi
+ 2440  conda activate deepspeed
+ 2441  ls
+ 2442  cd tmp
+ 2443  ls
+ 2444  cd ..
+ 2445  rm -rf ~/tmp/
+ 2446  cd /mnt/data
+ 2447  ls
+ 2448  cd lijianwen
+ 2449  ls
+ 2450  mkdir tmp
+ 2451  ls
+ 2452  pwd
+ 2453  nvidia-smi
+ 2454  df -h
+ 2455  conda activate deepspeed
+ 2456  tmux attach
+ 2457  CUDA_VISIBLE_DEVICES=3,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 4 --step 3
+ 2458  tmux attach
+ 2459  df -h
+ 2460  ls /tmp/data_files/
+ 2461  ls /mnt/data/lijianwen/tmp
+ 2462  tmux attach
+ 2463  CUDA_VISIBLE_DEVICES=3,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 4 --step 3
+ 2464  ls /mnt/data/lijianwen/tmp
+ 2465  ls -lh /mnt/data/lijianwen/tmp
+ 2466  nvidia-smi
+ 2467  tmux attach
+ 2468  top
+ 2469  ls
+ 2470  df -h
+ 2471  nvidia-smi
+ 2472  tmux attach
+ 2473  nvidia-smi
+ 2474  tmux attach
+ 2475  df -h
+ 2476  tmux attach
+ 2477  CUDA_VISIBLE_DEVICES=2,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 4 --step 3
+ 2478  df -h
+ 2479  tmux attach
+ 2480  nvidia-smi
+ 2481  conda activate deepspeed
+ 2482  tmux attach
+ 2483  CUDA_VISIBLE_DEVICES=2,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --num-gpus 4 --step 3
+ 2484  git stash
+ 2485  git pull
+ 2486  git stash pop
+ 2487  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node --step 3
+ 2488  df -h
+ 2489  conda activate deepspeed
+ 2490  ls
+ 2491  cd /mnt/data
+ 2492  ls
+ 2493  cd lijianwen
+ 2494  ls
+ 2495  cd tmp
+ 2496  ls
+ 2497  cd ..
+ 2498  cd ~
+ 2499  ls
+ 2500  du -h --max-depth=1 .
+ 2501  tmux attach
+ 2502  nvidia-smi
+ 2503  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node --step 3
+ 2504  nvidia-smi
+ 2505  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node --step 3
+ 2506  nvidia-smi
+ 2507  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2508  ls /tmp/data_files/
+ 2509  rm /tmp/data_files/*
+ 2510  ls
+ 2511  ls /tmp/data_files/
+ 2512  nvidia-smi
+ 2513  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2514  nvidia-smi
+ 2515  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2516  nvidia-smi
+ 2517  exit
+ 2518  tmux
+ 2519  exit
+ 2520  tmux attach
+ 2521  ls
+ 2522  cd code/DeepSpeedExamples/
+ 2523  tmux
+ 2524  conda activate deepspeed
+ 2525  spack load cuda@11.7.1
+ 2526  tmux attach
+ 2527  nvidia-smi
+ 2528  exit()\nconda activate deepspeed
+ 2529  exit
+ 2530  tmux attach
+ 2531  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2532  cd applications/DeepSpeed-Chat
+ 2533  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2534  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2535  df -h
+ 2536  cd ~
+ 2537  ls
+ 2538  du -h --max-depth=1 .
+ 2539  cd code
+ 2540  ls
+ 2541  du -h --max-depth=1 .
+ 2542  rm -rf pytorch
+ 2543  ls
+ 2544  tmux attach
+ 2545  conda activate deepspeed
+ 2546  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2547  squeue
+ 2548  watch nvidia-smi
+ 2549  top
+ 2550  tmux attach
+ 2551  htop
+ 2552  tmux attach
+ 2553  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2554  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2555  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2556  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2557  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2558  terminator
+ 2559  screen
+ 2560  exit
+ 2561  nvidia-smi
+ 2562  exit
+ 2563  clear
+ 2564  tmux attach
+ 2565  cd ..
+ 2566  ls
+ 2567  tmux attach
+ 2568  rm /tmp/data_files/*
+ 2569  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2570  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpt --step 3
+ 2571  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2572  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2573  watch nvidia-smi
+ 2574  CUDA_VISIBLE_DEVICES=3,4,5,6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2575  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2576  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2577  CUDA_VISIBLE_DEVICES=1,2,3,0 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2578  conda activate deepspeed
+ 2579  tmux attach
+ 2580  nvidia-smi
+ 2581  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_node_multi_gpu --step 3
+ 2582  nvidia-smi
+ 2583  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2584  op
+ 2585  top
+ 2586  nvidia-smi
+ 2587  ps
+ 2588  kill -9 460729
+ 2589  ps -ef 
+ 2590  ps
+ 2591  kill -9 460924
+ 2592  kill -9 461056
+ 2593  ps
+ 2594  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2595  nvidia-smi
+ 2596  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2597  nvidia-smi
+ 2598  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2599  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2600  nvidia-smi
+ 2601  ls /tmp/data_files/
+ 2602  top
+ 2603  ls /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/6.7b
+ 2604  nvidia-smi
+ 2605  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b --reward-model facebook/opt-350m --deployment-type single_gpu
+ 2606  rm ./output -rf 
+ 2607  ls
+ 2608  cd training/step1_supervised_finetuning/
+ 2609  rm -rf output/
+ 2610  ls
+ 2611  cd ..
+ 2612  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2613  cd ..
+ 2614  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2615  top
+ 2616  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2617  nvidia-smi
+ 2618  df -h
+ 2619  cd ~
+ 2620  ls
+ 2621  du -h --max-depth=1 .
+ 2622  cd cac
+ 2623  ls
+ 2624  cd cache
+ 2625  ls
+ 2626  cd .cache
+ 2627  ls
+ 2628  cd huggingface
+ 2629  ls
+ 2630  cd ..
+ 2631  du -h --max-depth=1 .
+ 2632  cd huggingface
+ 2633  ls
+ 2634  du 
+ 2635  du -h --max-depth=1 .
+ 2636  cd hub/models--
+ 2637  cd hub
+ 2638  ls
+ 2639  cd ..
+ 2640  du -h --max-depth=1 .
+ 2641  nvidia-smi
+ 2642  du -h --max-depth=1 .
+ 2643  nvidia-smi
+ 2644  du -h --max-depth=1 .
+ 2645  nvidia-smi
+ 2646  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2647  nvidia-smi
+ 2648  du -h --max-depth=1 .
+ 2649  nvidia-smi
+ 2650  conda activate deepspeed
+ 2651  tmux attach
+ 2652  nvidia-smi
+ 2653  tmux attach
+ 2654  nvidia-smi
+ 2655  df -h
+ 2656  du -h --max-depth=1 .
+ 2657  nvidia-smi
+ 2658  cd .cache
+ 2659  ls
+ 2660  cd huggingface
+ 2661  ls
+ 2662  cd hub
+ 2663  ls
+ 2664  cd models--facebook--opt-6.7b
+ 2665  ls
+ 2666  cd snapshots
+ 2667  ls
+ 2668  cd a45aa65bbeb77c1558bc99bedc6779195462dab0
+ 2669  ls
+ 2670  cd ..
+ 2671  ls
+ 2672  cd ..
+ 2673  ls
+ 2674  cd refs
+ 2675  ls
+ 2676  cd ..
+ 2677  ls
+ 2678  cd blobs
+ 2679  ls
+ 2680  cd ..
+ 2681  ls
+ 2682  cd ..
+ 2683  ls
+ 2684  cd ..
+ 2685  ls
+ 2686  tmux attach
+ 2687  nvidia-smi
+ 2688  du -h --max-depth=1 .
+ 2689  df -h
+ 2690  nvidia-smi
+ 2691  df -h
+ 2692  nvidia-smi
+ 2693  tmux attach
+ 2694  nvidia-smi
+ 2695  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2696  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 2
+ 2697  conda activate deepspeed
+ 2698  df -h
+ 2699  du -h --max-depth=1 .
+ 2700  cd applications
+ 2701  ls
+ 2702  du -h --max-depth=1 .
+ 2703  cd DeepSpeed-Chat/output/
+ 2704  du
+ 2705  du -h --max-depth=1 .
+ 2706  ls
+ 2707  cd /mnt/data
+ 2708  ls
+ 2709  cd lijianwen
+ 2710  ls
+ 2711  mkdir Dconda activate deepspeed
+ 2712  mkdir Deepspeed-Chat
+ 2713  cd Deepspeed
+ 2714  ls
+ 2715  rm -rf activate
+ 2716  rm -rf Dconda
+ 2717  ls
+ 2718  rm -rf deepspeed
+ 2719  ls
+ 2720  rm -rf Deepspeed-Chat
+ 2721  mkdir DeepSpeed-Chat
+ 2722  cd DeepSpeed-Chat
+ 2723  ls
+ 2724  mv ~/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output .
+ 2725  cd output
+ 2726  pwd
+ 2727  ls
+ 2728  cd ..
+ 2729  ls
+ 2730  ln -s /mnt/data/lijianwen/DeepSpeed-Chat/output .
+ 2731  ls -lh
+ 2732  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2733  nvidia-smi
+ 2734  ls
+ 2735  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2736  cd training/step3_rlhf_finetuning
+ 2737  ls
+ 2738  rm -rf output/
+ 2739  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2740  rm -rf output
+ 2741  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2742  nvidia-smi
+ 2743  df -h
+ 2744  cd ..
+ 2745  du -h --max-depth=1 .
+ 2746  cd ..
+ 2747  du -h --max-depth=1 .
+ 2748  cd ..
+ 2749  du -h --max-depth=1 .
+ 2750  cd ..
+ 2751  du -h --max-depth=1 .
+ 2752  cd .cache
+ 2753  ls
+ 2754  du -h --max-depth=1 .
+ 2755  nvidia-smi
+ 2756  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2757  echo $TORCH_HOME
+ 2758  du -h --max-depth=1 ./.cache
+ 2759  du -h --max-depth=1 ~/.cache
+ 2760  conda activate deepspeed
+ 2761  which pip
+ 2762  mkdir /mnt/data/lijianwen/.cache
+ 2763  df -h
+ 2764  ls /mnt/data/lynie
+ 2765  du -h --max-depth=1 ~/.cache
+ 2766  ls ~/.cache/huggingface
+ 2767  cd /mnt/data/lijianwen/.cache
+ 2768  ls
+ 2769  mkdir huggingface
+ 2770  cd huggingface
+ 2771  ls
+ 2772  pwd
+ 2773  cd ..
+ 2774  ls
+ 2775  rm -rf huggingface
+ 2776  mv ~/.cache/huggingface .
+ 2777  pwd
+ 2778  export HF_DATASETS_CACHE=/mnt/data/lijianwen/.cache/huggingface/
+ 2779  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2780  nvidia-smi
+ 2781  rm -rf ~/.cache/huggingface
+ 2782  export HF_HOME=/mnt/data/lijianwen/.cache/huggingface/
+ 2783  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2784  du -h --max-depth=1 .
+ 2785  cd ./.
+ 2786  cd ..
+ 2787  du -h --max-depth=1 .
+ 2788  df -h
+ 2789  vim ~/.zshrc
+ 2790  ls
+ 2791  cd huggingface
+ 2792  ls
+ 2793  ls ~/.cache/huggingface
+ 2794  ls
+ 2795  ls -lh
+ 2796  ls
+ 2797  ls -lh
+ 2798  du -h --max-depth=1 .
+ 2799  ls -lh
+ 2800  ls
+ 2801  cd ..
+ 2802  ls
+ 2803  cd tmp
+ 2804  ls
+ 2805  cd ..
+ 2806  ls
+ 2807  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2808  ls
+ 2809  rm _mnt_data_lijianwen_.cache_huggingface_*
+ 2810  ls
+ 2811  cd ..
+ 2812  ls
+ 2813  ls -lh
+ 2814  du -h --max-depth=1 .
+ 2815  nvidia-smi
+ 2816  cd huggingface
+ 2817  ls
+ 2818  d exit
+ 2819  exit
+ 2820  ls
+ 2821  cd ..
+ 2822  ls
+ 2823  cd ..
+ 2824  ls
+ 2825  cd tmp
+ 2826  ls
+ 2827  ls -lh
+ 2828  ls -lhrt
+ 2829  nvidia-smi
+ 2830  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2831  top
+ 2832  nvidia-smi
+ 2833  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2834  nvidia-smi
+ 2835  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2836  nvidia-smi
+ 2837  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2838  top
+ 2839  nvidia-smi
+ 2840  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2841  export TOKENIZERS_PARALLELISM=1
+ 2842  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2843  nvidia-smi
+ 2844  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2845  nvidia-smi
+ 2846  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2847  pip list | grep acclerate
+ 2848  pip install acclerate
+ 2849  pip install accelerate
+ 2850  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2851  nvidia-smi
+ 2852  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2853  nvidia-smi
+ 2854  nvidia-sami
+ 2855  nvidia-smi
+ 2856  ls -lhrt
+ 2857  cd ..
+ 2858  ls
+ 2859  ls -lhrt
+ 2860  du -h --max-depth=1 .
+ 2861  rm -rf tmp/*
+ 2862  nvidia-smi
+ 2863  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2864  nvidia-smi
+ 2865  CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2866  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2867  nvidia-smi
+ 2868  CUDA_VISIBLE_DEVICES=5 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2869  nvidia-smi
+ 2870  CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2871  nvidia-smi
+ 2872  CUDA_VISIBLE_DEVICES=0,4,5,6 python train.py --actor-model facebook/opt-6.7b_lora --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2873  nvidia-smi
+ 2874  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2875  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2876  ls /tmp/data_files/
+ 2877  ls -lh /tmp/data_files/
+ 2878  rm  /tmp/data_files/*
+ 2879  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 2880  nvidia-smi
+ 2881  top
+ 2882  top -u lijianwen
+ 2883  cd ..
+ 2884  du -h --max-depth=1 .
+ 2885  cd lijianwen
+ 2886  du -h --max-depth=1 .
+ 2887  tmux attach
+ 2888  nvidia-smi
+ 2889  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2890  nvidia-smi
+ 2891  tmux attach
+ 2892  conda activate deepspeed
+ 2893  tmux attach
+ 2894  nvidia-smi
+ 2895  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2896  nvidia-smi
+ 2897  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2898  cd .cache/huggingface
+ 2899  ls
+ 2900  clear
+ 2901  nvidia-smi
+ 2902  cd .cache/huggingface
+ 2903  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2904  nvidia-smi
+ 2905  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2906  nvidia-smi --verbose=detail
+ 2907  nvidia-smi -h | grep verbose
+ 2908  cd ~/code/DeepSpeedExamples/applications/DeepSpeed-Chat
+ 2909  ls
+ 2910  python3 test.py
+ 2911  ls -lh /tmp/data_files/
+ 2912  rm -rf ~/.cache/huggingface/
+ 2913  python3 test.py
+ 2914  CUDA_VISIBLE_DEVICES=6 python3 test.py
+ 2915  nvidia-smi
+ 2916  CUDA_VISIBLE_DEVICES=6 python3 test.py
+ 2917  CUDA_VISIBLE_DEVICES=6 python3 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbNCwgNV19 --master_addr=127.0.0.1 --master_port=12346 --enable_each_rank_log=None main.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 512 --max_prompt_seq_len 512 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2918  cd training/step3_rlhf_finetuning
+ 2919  ls
+ 2920  CUDA_VISIBLE_DEVICES=6 python3 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbNCwgNV19 --master_addr=127.0.0.1 --master_port=12346 --enable_each_rank_log=None test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 512 --max_prompt_seq_len 512 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2921  nvidia-smi
+ 2922  CUDA_VISIBLE_DEVICES=6 python3 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbNCwgNV19 --master_addr=127.0.0.1 --master_port=12346 --enable_each_rank_log=None test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2923  CUDA_VISIBLE_DEVICES=6 python3 -u -m deepspeed.launcher.launch --master_addr=127.0.0.1 --master_port=12346 --enable_each_rank_log=None test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2924  CUDA_VISIBLE_DEVICES=6 deepspeed  --master_port 12346 test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2925  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2926  ls
+ 2927  cd ..
+ 2928  ls
+ 2929  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2930  cd ..
+ 2931  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2932  CUDA_VISIBLE_DEVICES=6 deepspeed  --master_port 12346 test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2933  cd training/step3_rlhf_finetuning
+ 2934  CUDA_VISIBLE_DEVICES=6 deepspeed  --master_port 12346 test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2935  tmux attach
+ 2936  conda activate deepspeed
+ 2937  tmux attach
+ 2938  ps -ef | grep lijianwen
+ 2939  clear
+ 2940  conda activate deepspeed
+ 2941  CUDA_VISIBLE_DEVICES=6 deepspeed  --master_port 12346 test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 2 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2942  CUDA_VISIBLE_DEVICES=6 deepspeed  --master_port 12346 test.py --data_path Dahoas/rm-static Dahoas/full-hh-rlhf Dahoas/synthetic-instruct-gptj-pairwise yitingxie/rlhf-reward-datasets openai/webgpt_comparisons stanfordnlp/SHP --data_split 2,4,4 --actor_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b --critic_model_name_or_path /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/reward-models/350m --num_padding_at_beginning 1 --per_device_train_batch_size 16 --per_device_mini_train_batch_size 16 --generation_batch_numbers 1 --ppo_epochs 1 --max_answer_seq_len 256 --max_prompt_seq_len 256 --actor_learning_rate 5e-4 --critic_learning_rate 5e-6 --actor_weight_decay 0.1 --critic_weight_decay 0.1 --num_train_epochs 1 --lr_scheduler_type cosine --gradient_accumulation_steps 1 --num_warmup_steps 100 --deepspeed --seed 1234 --enable_hybrid_engine --inference_tp_size 1 --actor_zero_stage 3 --critic_zero_stage 3 --actor_gradient_checkpointing --actor_lora_dim 128 --actor_lora_module_name decoder.layers. --data_output_path /mnt/data/lijianwen/tmp --output_dir /home/lijianwen/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/step3-models/13b
+ 2943  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2944  cd ..
+ 2945  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2946  nvidia-smi
+ 2947  top
+ 2948  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2949  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2950  nvidia-smi
+ 2951  CUDA_VISIBLE_DEVICES=0,1,4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2952  nvidia-smi
+ 2953  watch -n 0.1 nvidia-smi
+ 2954  watch -n 1 nvidia-smi
+ 2955  CUDA_VISIBLE_DEVICES=0,1,4,5 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2956  CUDA_VISIBLE_DEVICES=0,1  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2957  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2958  CUDA_VISIBLE_DEVICES=0,1,4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2959  watch -n 1 nvidia-smi
+ 2960  nvidia-smi
+ 2961  CUDA_VISIBLE_DEVICES=0,1,4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2962  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2963  tmux attach
+ 2964  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2965  tmux attach
+ 2966  nvidia-smi
+ 2967  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 2968  nvidia-smi
+ 2969  tmux attach
+ 2970  exit
+ 2971  cd conda activate deepspeed
+ 2972  cd /mnt/data/lijianwen/.cache
+ 2973  ls
+ 2974  scp -r huggingface kinman@nico3:/home/kinman/.cache
+ 2975  scp -r huggingface kinman@nico0:/home/kinman/.cache
+ 2976  ls
+ 2977  tar -zcvf huggingface.tar.gz huggingface
+ 2978  du -h --max-depth=1 .
+ 2979  conda activate deepspeed
+ 2980  top
+ 2981  du -h --max-depth=1 .
+ 2982  ls
+ 2983  du -h --max-depth=1 .
+ 2984  ls
+ 2985  rm -rf huggingface.tar.gz
+ 2986  cd ../tmp/ls
+ 2987  cd ../tmp/
+ 2988  ls
+ 2989  cd ..
+ 2990  ls
+ 2991  rm -rf tmp/*
+ 2992  ls
+ 2993  cd ..
+ 2994  ls
+ 2995  cd lijianwen
+ 2996  ls
+ 2997  cd DeepSpeed-Chat
+ 2998  ls
+ 2999  conda activate deepspeed
+ 3000  tar -zcvf output.tar.gz output
+ 3001  ls
+ 3002  rm -rf output.tar.gz
+ 3003  tmux
+ 3004  tar -zcvf output.tar.gz output
+ 3005  cd ..
+ 3006  ls
+ 3007  cd DeepSpeed-Chat
+ 3008  ls
+ 3009  du -h --max-depth=1 .
+ 3010  ls
+ 3011  rm -rf output.tar.gz
+ 3012  ls
+ 3013  scp -r ./output kinman@nico0:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat
+ 3014  top
+ 3015  conda activate deepspeed
+ 3016  python3 show pytorch
+ 3017  python3 -m pip show pytorch
+ 3018  python3 -m pip show torch
+ 3019  which gcc
+ 3020  gcc --version
+ 3021  ls
+ 3022  conda activate deepspeed
+ 3023  cd code/DeepSpeedExamples/
+ 3024  ls
+ 3025  cd applications
+ 3026  ls
+ 3027  cd DeepSpeed-Chat
+ 3028  ls
+ 3029  nvidia-smi
+ 3030  CUDA_VISIBLE_DEVICES=6 python ./chat.py --path ./output/actor-models/13b
+ 3031  ls
+ 3032  vim inference/chatbot.py
+ 3033  onda activate deepspeed
+ 3034  CUDA_VISIBLE_DEVICES=6 python ./chat.py --path ./output/actor-models/13b
+ 3035  tmux attach
+ 3036  squeue
+ 3037  nvidia-smi
+ 3038  tmux attach
+ 3039  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 3040  ls
+ 3041  cd ~/code/DeepSpeedExamples/applications/DeepSpeed-Chat
+ 3042  ls
+ 3043  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 3044  which nvcc
+ 3045  spack load cuda@11.7.1
+ 3046  CUDA_VISIBLE_DEVICES=4,5  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 3047  squeue
+ 3048  nvidia-smi
+ 3049  CUDA_VISIBLE_DEVICES=0,1,2,3  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 3050  nvidia-smi
+ 3051  tmux attach
+ 3052  cd ..
+ 3053  cd inference/huggingface
+ 3054  ls
+ 3055  cd text-generation
+ 3056  onda activate deepspeed
+ 3057  CUDA_VISIBLE_DEVICES=0,1 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 2 --test_performance
+ 3058  nvidia-smi
+ 3059  CUDA_VISIBLE_DEVICES=6,5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 2 --test_performance
+ 3060  CUDA_VISIBLE_DEVICES=6,5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 1 --test_performance
+ 3061  nvidia-smi
+ 3062  CUDA_VISIBLE_DEVICES=6,5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 1 --test_performance --ds_inference
+ 3063  CUDA_VISIBLE_DEVICES=6,5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 1 --test_performance --ds_inference --max_new_tokens 512
+ 3064  nvidia-smi
+ 3065  watch nvidia-smi
+ 3066  CUDA_VISIBLE_DEVICES=5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 2 --test_performance --max_new_tokens 512
+ 3067  CUDA_VISIBLE_DEVICES=5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 4 --test_performance --max_new_tokens 512
+ 3068  CUDA_VISIBLE_DEVICES=5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 8 --test_performance --max_new_tokens 512
+ 3069  CUDA_VISIBLE_DEVICES=5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 16 --test_performance --max_new_tokens 512
+ 3070  CUDA_VISIBLE_DEVICES=5 deepspeed ./inference-test.py --name facebook/opt-13b --batch_size 32 --test_performance --max_new_tokens 512
+ 3071  ls -lh /tmp/data_files/
+ 3072  conda activate deepspeed
+ 3073  tmux attach
+ 3074  squeue
+ 3075  nvidia-smi
+ 3076  cd code/DeepSpeedExamples/
+ 3077  ls
+ 3078  cd applications/DeepSpeed-Chat
+ 3079  ls
+ 3080  tmux attach
+ 3081  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3082  cd ../../../applications/DeepSpeed-Chat/
+ 3083  ls
+ 3084  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3085  nvidia-smi
+ 3086  ls
+ 3087  vim training/step1_supervised_finetuning/training_scripts/single_gpu/run_13b.sh
+ 3088  tmux attach
+ 3089  CUDA_VISIBLE_DEVICES=5,6 python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3090  nvidia-smi
+ 3091  tmux attach
+ 3092  squeue
+ 3093  nvidia-smi
+ 3094  top
+ 3095  nvidia-smi
+ 3096  nvidia-smi -p
+ 3097  nvidia-smi --help
+ 3098  nvidia-smi -a
+ 3099  exit
+ 3100  nvidia-smi
+ 3101  exit
+ 3102  CUDA_VISIBLE_DEVICES=0,1,2,3  python train.py --actor-model facebook/opt-13b --reward-model facebook/opt-350m --deployment-type single_gpu --step 3
+ 3103  squeue
+ 3104  conda install -c conda-forge nvitop
+ 3105  nvitop
+ 3106  exit
+ 3107  nvitop
+ 3108  tmux attah
+ 3109  tmux attach
+ 3110  tmux
+ 3111  nvitop
+ 3112  squeue
+ 3113  nvidia-smi
+ 3114  nvitop
+ 3115  ls
+ 3116  cd env
+ 3117  ls
+ 3118  cd ../code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b
+ 3119  ls
+ 3120  cd ./code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b
+ 3121  scp -r ./pytorch_model.bin kinman@nico0:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/13b/pytorch_model_new.bin
+ 3122  cd ..
+ 3123  scp -r ./13b kinman@nico0:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/
+ 3124  squeue
+ 3125  top
+ 3126  nvidia-smi
+ 3127  nvitop
+ 3128  top
+ 3129  exit
+ 3130  ls
+ 3131  cd code
+ 3132  ls
+ 3133  cd DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models/
+ 3134  ls
+ 3135  squeue
+ 3136  ls
+ 3137  cd ..
+ 3138  ls
+ 3139  nvidia-smi
+ 3140  ls
+ 3141  vim training/step1_supervised_finetuning/training_scripts/single_gpu/run_1.3b.sh
+ 3142  tmux attach
+ 3143  which nvcc
+ 3144  spack load cuda@11.7.1
+ 3145  cd code/DeepSpeedExamples/applications/DeepSpeed-Chat
+ 3146  ls
+ 3147  conda activate deepspeed
+ 3148  CUDA_VISIBLE_DEVICE=3 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3149  nvidia-smi
+ 3150  tmux attach
+ 3151  squeue
+ 3152  nvidia-smi
+ 3153  top
+ 3154  tmux attach
+ 3155  CUDA_VISIBLE_DEVICE=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3156  tmux attach
+ 3157  top
+ 3158  nvidia-smi
+ 3159  tmux attach
+ 3160  ls
+ 3161  cat output/actor-models/1.3b/training.log
+ 3162  nvitop
+ 3163  cat output/actor-models/1.3b/training.log
+ 3164  history | grep CACHE
+ 3165  tmux attach
+ 3166  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3167  echo $HF_HOME
+ 3168  ls -lh /tmp/data_files/
+ 3169  ls -lhrt /tmp/data_files/
+ 3170  top
+ 3171  df -h
+ 3172  ls -lhrt /tmp/data_files/
+ 3173  ls -lh /tmp/data_files/
+ 3174  CUDA_VISIBLE_DEVICES=6 python train.py --actor-model facebook/opt-1.3b --reward-model facebook/opt-350m --deployment-type single_gpu --step 1
+ 3175  nvitoip
+ 3176  nvitop
+ 3177  cd applications/DeepSpeed-Chat/output/actor-models
+ 3178  ls
+ 3179  scp -r ./1.3b kinman@nico0:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models
+ 3180  ping nico0
+ 3181  scp -r ./1.3b kinman@nico0:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models
+ 3182  ls
+ 3183  ls -lh /tmp/data_files/
+ 3184  ls -lh /mnt/data/lijianwen/tmp
+ 3185  nvitop
+ 3186  exit
+ 3187  ls
+ 3188  mkdir tmp
+ 3189  pwd
+ 3190  df -h
+ 3191  ls
+ 3192  nvidia-smi
+ 3193  nvitop
+ 3194  ls
+ 3195  df -h
+ 3196  du -h --max-depth=1 .
+ 3197  cd /mnt/data/lijianwen/.cache
+ 3198  cd ..
+ 3199  ls
+ 3200  python3
+ 3201  conda activate deepspeed
+ 3202  python3
+ 3203  ls
+ 3204  ls /tmp/data_files/
+ 3205  ls -lhrt /tmp/data_files/
+ 3206  ls
+ 3207  exit
+ 3208  ls
+ 3209  df -h
+ 3210  exit
+ 3211  ls
+ 3212  df -h
+ 3213  nvitop
+ 3214  nvidia-smi
+ 3215  clear
+ 3216  python3
+ 3217  exit()\nls
+ 3218  exit
+ 3219  ls
+ 3220  exit
+ 3221  ls
+ 3222  nvidia-smi
+ 3223  ls
+ 3224  cd code
+ 3225  ls
+ 3226  cd ..
+ 3227  cd code/DeepSpeedExamples/applications/DeepSpeed-Chat
+ 3228  ls
+ 3229  cd training/step3_rlhf_finetuning
+ 3230  ls
+ 3231  cd ../step1_supervised_finetuning/training_scripts/single_gpu
+ 3232  ls
+ 3233  cd ..
+ 3234  ls
+ 3235  cd single_
+ 3236  cd single_node/
+ 3237  ls
+ 3238  vim run_30b_lora.sh
+ 3239  ls
+ 3240  vim run_30b_lora.sh
+ 3241  ls
+ 3242  vim run_13b.sh
+ 3243  tmux attach
+ 3244  tmux new -s ds
+ 3245  export TOKENIZERS_PARALLELISM=1
+ 3246  export HF_HOME=/mnt/data/lijianwen/.cache/huggingface/
+ 3247  ls
+ 3248  vim run_30b_lora.sh
+ 3249  ls
+ 3250  cat run_13b.sh
+ 3251  cat ../../../step3_rlhf_finetuning/training_scripts/single_gpu/run_13b.sh
+ 3252  vim run_30b_lora.sh
+ 3253  squeue
+ 3254  nvidia-smi
+ 3255  export CUDA_VISIBLE_DEVICES=4
+ 3256  cd ...
+ 3257  cd ..
+ 3258  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --step 1
+ 3259  cd ..
+ 3260  ls
+ 3261  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --step 1
+ 3262  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3263  ls
+ 3264  cd ..
+ 3265  ls
+ 3266  git stash
+ 3267  git pull
+ 3268  git stash pop
+ 3269  tmux attach -s ds
+ 3270  tmux attach -t ds
+ 3271  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3272  ls
+ 3273  cd DeepSpeed-Chat
+ 3274  ls
+ 3275  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3276  tmux attach -t ds
+ 3277  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3278  nvidia-smi
+ 3279  nvitop
+ 3280  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3281  ls
+ 3282  ls output/actor-models/30b_lora
+ 3283  ls -lh output/actor-models/30b_lora
+ 3284  touch output/actor-models/30b_lora/training.log
+ 3285  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3286  conda activate deepspeed
+ 3287  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3288  nvitop
+ 3289  ls -lh
+ 3290  df -h
+ 3291  ls /tmp/data_files/
+ 3292  ls
+ 3293  cd /mnt/data/lijianwen/.cache
+ 3294  ls /mnt/data/lijianwen/.cache
+ 3295  tmux attach -t ds
+ 3296  spack load cuda@11.7.1
+ 3297  CUDA_VISIBLE_DEVICES=4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3298  squeue
+ 3299  nvidia-smi
+ 3300  CUDA_VISIBLE_DEVICES=3,4 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3301  nvitop
+ 3302  tmux attach -t ds
+ 3303  nvidia-smi
+ 3304  nvitop
+ 3305  squeue
+ 3306  nvitop
+ 3307  nvidia-smi
+ 3308  conda activate deepspeed
+ 3309  tmux attach -t ds
+ 3310  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3311  nvitop
+ 3312  conda activate base
+ 3313  nvitop
+ 3314  nvidia-smi
+ 3315  nvitop
+ 3316  tmux attach -t ds
+ 3317  nvitop
+ 3318  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3319  nvitop
+ 3320  tmux attach -t ds
+ 3321  nvidia-smi
+ 3322  nvitop
+ 3323  tmux attach -t ds
+ 3324  CUDA_VISIBLE_DEVICES=4,5 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3325  du -h --max-depth=1 .
+ 3326  du -h --max-depth=1 /mnt/data/lijianwen/DeepSpeed-Chat/output/actor-models/30b_lora/
+ 3327  ls -lh /mnt/data/lijianwen/DeepSpeed-Chat/output/actor-models/30b_lora/
+ 3328  cd /mnt/data/lijianwen/DeepSpeed-Chat/output/actor-models/
+ 3329  ls
+ 3330  scp -r ./30b_lora kinman@nico:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models
+ 3331  scp -r ./30b_lora kinman@nico0:/home/kinman/code/DeepSpeedExamples/applications/DeepSpeed-Chat/output/actor-models
+ 3332  tmux attach -t ds
+ 3333  cd ../zhongrx
+ 3334  ls
+ 3335  cd ~
+ 3336  ls
+ 3337  exit
+ 3338  python3
+ 3339  ls
+ 3340  tmux attach -t ds
+ 3341  python3
+ 3342  squeue
+ 3343  nvidia-smi
+ 3344  exit
+ 3345  nvidia-smi
+ 3346  nvitop
+ 3347  tmux attach -t ds
+ 3348  nvitop
+ 3349  tmux attach -t ds
+ 3350  nvitop
+ 3351  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 1
+ 3352  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 2
+ 3353  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 3
+ 3354  nvitop
+ 3355  tmux attach -t ds
+ 3356  CUDA_VISIBLE_DEVICES=4,6 python train.py --actor-model facebook/opt-30b_lora --reward-model facebook/opt-350m --deployment-type single_node --step 3
+ 3357  conda activate base
+ 3358  git stash
+ 3359  git pull
+ 3360  conda activate coati
+ 3361  cd transformers
+ 3362  ls
+ 3363  cd ..
+ 3364  ls /tmp/data_files/
+ 3365  du -h --max-depth=1 .
+ 3366  ls .cache
+ 3367  ls -lh .cache
+ 3368  vim test.py
+ 3369  exit
+ 3370  nvitop
+ 3371  ls
+ 3372  exit
+ 3373  nvitop
+ 3374  ls
+ 3375  cd workspace
+ 3376  ls
+ 3377  cd ..
+ 3378  ls
+ 3379  cd code
+ 3380  ls
+ 3381  cd ColossalAI
+ 3382  ls
+ 3383  conda activate coati
+ 3384  tmux attach
+ 3385  ls
+ 3386  cd applications/Chat/
+ 3387  ls
+ 3388  cd examples
+ 3389  ls
+ 3390  vim train_prompts.py
+ 3391  ls
+ 3392  cd ..
+ 3393  cd coati/experience_maker
+ 3394  ls
+ 3395  vim naive.py
+ 3396  spack load cuda@11.7.1
+ 3397  cd ..
+ 3398  ls
+ 3399  squeue
+ 3400  nvitop
+ 3401  nvidia-smi
+ 3402  ls
+ 3403  history | grep train_prompt
+ 3404  cd examples
+ 3405  ls
+ 3406  vim train_prompts.sh
+ 3407  nvitop
+ 3408  top
+ 3409  exit
+ 3410  ping nico0
+ 3411  exit
+ 3412  ls
+ 3413  cd /mnt/data/lijianwen/DeepSpeed-Chat/output/
+ 3414  ls
+ 3415  cd step3-models
+ 3416  ls
+ 3417  cd 13b
+ 3418  ls
+ 3419  vim training.log
+ 3420  ls
+ 3421  cd ..
+ 3422  ls
+ 3423  cd 6.7b_lora
+ 3424  ls
+ 3425  vim training.log
+ 3426  /home/lijianwen/miniconda3/envs/deepspeed/bin/python /home/lijianwen/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/shell_exec.py conda install -c conda-forge --name deepspeed tensorboard -y /tmp/tmp-64387P7O17dv7ebIt.log
+ 3427  pwd
+ 3428  vim ~/.ssh/authorized_keys
+ 3429  pip show tensorboard
+ 3430  python3 -m pip install tensorboard
+ 3431  ls
+ 3432  rm result -rf
+ 3433  nvitop
+ 3434  exit
+ 3435  nvidia-smi
+ 3436  nvitop
+ 3437  spack load cuda@11.7.1
+ 3438  nvidia-smi
+ 3439  apt
+ 3440  squeue
+ 3441  top
+ 3442  df -h
+ 3443  du -h --max-depth=1 .
+ 3444  cd install
+ 3445  ls
+ 3446  du -h --max-depth=1 .
+ 3447  cd tar
+ 3448  ls
+ 3449  cd ..
+ 3450  ls
+ 3451  rm -rf tar/
+ 3452  ls
+ 3453  cd ..
+ 3454  du -h --max-depth=1 .
+ 3455  df -h
+ 3456  ls
+ 3457  du -h --max-depth=1 .
+ 3458  cd .cache
+ 3459  ls
+ 3460  du -h --max-depth=1 .
+ 3461  cd pip
+ 3462  ls
+ 3463  du -h --max-depth=1 .
+ 3464  cd http
+ 3465  ls
+ 3466  du -h --max-depth=1 .
+ 3467  cd f
+ 3468  ls
+ 3469  cd ..
+ 3470  ls
+ 3471  du -h --max-depth=1 .
+ 3472  rm -rf pip
+ 3473  cd ..
+ 3474  ls
+ 3475  df -h
+ 3476  du -h --max-depth=1 .
+ 3477  exit
+ 3478  squerue
+ 3479  squeue
+ 3480  nvidia-smi
+ 3481  nvitop
+ 3482  exit
+ 3483  nvidia-smi
+ 3484  top
+ 3485  nvidia-smi
+ 3486  top
+ 3487  nvitop
+ 3488  top
+ 3489  htop
+ 3490  nvidia-smi
+ 3491  exit
+ 3492  nvidia-smi
+ 3493  nvidia-smi -a
+ 3494  nvidia-smi -h
+ 3495  nvidia-smi topo -m
+ 3496  nvidia-smi
+ 3497  ls
+ 3498  nvidia-smi -n
+ 3499  nvidia-smi -h
+ 3500  nvidia-smi -L
+ 3501  squeue
+ 3502  nvidia-smi
+ 3503  top
+ 3504  nvidia-smi
+ 3505  ps -ef | grep 10024
+ 3506  squeue
+ 3507  nvidia-smi
+ 3508  nvidia
+ 3509  nvidia-smi
+ 3510  top
+ 3511  squeue
+ 3512  sinfo
+ 3513  nvidia-smi
+ 3514  top
+ 3515  squeue
+ 3516  nvdiia-smi
+ 3517  nvidia-smi
+ 3518  top
+ 3519  squeue
+ 3520  nvidia-smi
+ 3521  nvitop
+ 3522  top
+ 3523  exit
+ 3524  squeue
+ 3525  nvidia-smi
+ 3526  ls
+ 3527  ls /mnt/data/zhongrx/Llama-2-7b-hf/
+ 3528  ls
+ 3529  cd code
+ 3530  ls
+ 3531  rm -rf triton
+ 3532  ls
+ 3533  squeue
+ 3534  nvidia-smi
+ 3535  top
+ 3536  nvidia-smi
+ 3537  ps -ef | grep 1835743
+ 3538  ls
+ 3539  cd code
+ 3540  ls
+ 3541  git clone git@github.com:NVIDIA/cuda-samples.git
+ 3542  ls
+ 3543  cd cuda-samples
+ 3544  ls
+ 3545  cd Samples/5_Domain_Specific
+ 3546  ls
+ 3547  cd p2pBandwidthLatencyTest
+ 3548  ls
+ 3549  make
+ 3550  spack load cuda@11.7.1
+ 3551  make
+ 3552  CUDA_PATH=$CUDA_HOME make
+ 3553  CUDA_PATH=$CUDA_HOME SMS=80 make
+ 3554  nvidia-smi
+ 3555  watch nvidia-smi
+ 3556  ls
+ 3557  ./p2pBandwidthLatencyTest
+ 3558  nvidia-smi topo -m
+ 3559  cd ~
+ 3560  s
+ 3561  cd code
+ 3562  ls
+ 3563  pwd
+ 3564  ls
+ 3565  cd puzzle
+ 3566  ls
+ 3567  cd puzzle
+ 3568  ls
+ 3569  cd trainer
+ 3570  ls
+ 3571  cd ..
+ 3572  ls
+ 3573  cd benchmark
+ 3574  ls
+ 3575  cd ..
+ 3576  ls
+ 3577  cd example
+ 3578  ls
+ 3579  cd config
+ 3580  ls
+ 3581  cd ..
+ 3582  ls
+ 3583  cd ..
+ 3584  ls
+ 3585  cd pipeline
+ 3586  ls
+ 3587  cd ..
+ 3588  ls
+ 3589  cd ..
+ 3590  ls
+ 3591  squeue
+ 3592  nvidia-smi
+ 3593  top
+ 3594  ls
+ 3595  top
+ 3596  clear
+ 3597  cd /mnt/data/lijianwen/
+ 3598  ls
+ 3599  mkdir huggingface
+ 3600  ls
+ 3601  cd huggingface
+ 3602  ls
+ 3603  pwd
+ 3604  ls
+ 3605  mkdir Dahoas
+ 3606  mv rm-static Dahoas
+ 3607  ls
+ 3608  cd Dahoas
+ 3609  ls
+ 3610  cd rm-static
+ 3611  ls
+ 3612  cd ..
+ 3613  ls
+ 3614  cd ..
+ 3615  ls
+ 3616  cd tmp/p
+ 3617  cd tmp
+ 3618  ls
+ 3619  cd ..
+ 3620  ls
+ 3621  nvidia-smi
+ 3622  nvidia-smi -L
+ 3623  squeue
+ 3624  nvidia-smi
+ 3625  git remote -v
+ 3626  ls /home/dataset/rlhf-data/Dahoas/rm-static
+ 3627  ls ./puzzle/example/config/Llama2-350m-hf
+ 3628  ls
+ 3629  cd tmp
+ 3630  ls
+ 3631  pwd
+ 3632  spack load cuda@11.7.1
+ 3633  squeue
+ 3634  nvidia-smi
+ 3635  ls
+ 3636  cd ..
+ 3637  ls
+ 3638  cd huggingface/Dahoas
+ 3639  cd ..
+ 3640  cd ~
+ 3641  ls
+ 3642  cd code
+ 3643  ls
+ 3644  cd puzzle
+ 3645  ls
+ 3646  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3647  conda activate megatron
+ 3648  conda env list 
+ 3649  conda activate deepspeed
+ 3650  pip show transformer
+ 3651  pip show transformers
+ 3652  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3653  ls
+ 3654  conda activate coati
+ 3655  pip show transformers
+ 3656  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3657  conda create -n megatron python=3.9
+ 3658  conda activate megatron
+ 3659  ls
+ 3660  cd code
+ 3661  ls
+ 3662  cd puzzle
+ 3663  ls
+ 3664  spack load cuda@11.7.1
+ 3665  python3 -m pip install torch==1.13.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+ 3666  ls
+ 3667  df -h
+ 3668  ls
+ 3669  which python3
+ 3670  ls
+ 3671  cd ..
+ 3672  ls
+ 3673  cd ..
+ 3674  ls
+ 3675  vim ~/.zshrc
+ 3676  vim "/home/lijianwen/miniconda3/etc/profile.d/conda.sh"
+ 3677  ls
+ 3678  vim "/home/lijianwen/miniconda3/etc/profile.d/conda.sh"
+ 3679  mv miniconda3 /mnt/data/lijianwen
+ 3680  ls /mnt/data
+ 3681  ls
+ 3682  cd miniconda3
+ 3683  ls
+ 3684  cd ..
+ 3685  ls
+ 3686  df -h
+ 3687  cd ~
+ 3688  ls
+ 3689  cd /mnt/data
+ 3690  ls
+ 3691  ls -lhrt
+ 3692  du -h --max-depth=1 .
+ 3693  cd lijianwen
+ 3694  ls
+ 3695  cd miniconda3
+ 3696  ls
+ 3697  cd ..
+ 3698  ls
+ 3699  mv -t miniconda3 ~/miniconda3
+ 3700  ls
+ 3701  rm -rf miniconda3
+ 3702  cd ~
+ 3703  s
+ 3704  ls
+ 3705  rm -rf miniconda3
+ 3706  df -h
+ 3707  cd /mnt
+ 3708  ls
+ 3709  df -hh
+ 3710  du -h --max-depth=1 .
+ 3711  cd data
+ 3712  ls
+ 3713  du -h --max-depth=1 .
+ 3714  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+ 3715  curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -o miniconda.exe
+ 3716  mkdir -p ~/miniconda3\ncurl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+ 3717  ls
+ 3718  cd lijianwen
+ 3719  ls
+ 3720  curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+ 3721  ls
+ 3722  mv ~/miniconda3 .
+ 3723  ls
+ 3724  cd miniconda3
+ 3725  ls
+ 3726  bash ./miniconda.sh -b -u -p /mnt/data/lijianwen/miniconda3
+ 3727  vim miniconda.sh
+ 3728  bash ./miniconda.sh -b -u -p /mnt/data/lijianwen/miniconda3
+ 3729  ls
+ 3730  cd ..
+ 3731  ls
+ 3732  rm -rf miniconda3
+ 3733  mkdir miniconda3
+ 3734  cd miniconda3
+ 3735  ls
+ 3736  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+ 3737  bash ./miniconda.sh -b -u -p /mnt/data/lijianwen/miniconda3
+ 3738  vim ~/.zshrc
+ 3739  exit
+ 3740  which python3
+ 3741  conda create -n megatron python=3.9
+ 3742  squeue
+ 3743  nvidia-smi
+ 3744  top
+ 3745  conda activate megatron
+ 3746  spack load cuda@11.7.1
+ 3747  python3 -m pip install torch==1.13.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+ 3748  ls
+ 3749  pip --help | grep cache
+ 3750  python3 -m pip install torch==1.13.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 --no-cache-dir
+ 3751  python3 -m pip install transformers
+ 3752  ls
+ 3753  cd workspace
+ 3754  ls
+ 3755  cd ..
+ 3756  ls
+ 3757  cd code
+ 3758  ls
+ 3759  git clone git@github.com:NVIDIA/apex
+ 3760  nvidia-smi
+ 3761  cd apex
+ 3762  ls
+ 3763  which nvcc
+ 3764  python setup.py install --cuda_ext
+ 3765  which gcc
+ 3766  gcc -v
+ 3767  spack load gcc@9.4.0
+ 3768  python setup.py install --cuda_ext
+ 3769  git checkout 22.05
+ 3770  git checkout -t 22.05
+ 3771  git checkout -b 22.05
+ 3772  python setup.py install --cuda_ext
+ 3773  pip show torch
+ 3774  l;s
+ 3775  ls
+ 3776  rm -rf build
+ 3777  python setup.py install --cuda_ext
+ 3778  ls
+ 3779  cd ..
+ 3780  ls
+ 3781  rm -rf apex
+ 3782  git clone git@github.com:NVIDIA/apex
+ 3783  cd apex
+ 3784  ls
+ 3785  python setup.py install --cuda_ext
+ 3786  git checkout 2386a912164b0c5cfcd8be7a2b890fbac5607c82
+ 3787  pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --config-settings "--build-option=--cpp_ext" --config-settings "--build-option=--cuda_ext" ./
+ 3788  squeue
+ 3789  df -h
+ 3790  nvidia-smi
+ 3791  top
+ 3792  ps
+ 3793  nvidia-smi
+ 3794  cd ../puzzle
+ 3795  ls
+ 3796  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3797  python3 -m pip install six
+ 3798  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3799  python3 -m pip show numpy
+ 3800  python3 -m pip install numpy==1.23.0
+ 3801  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3802  python3 -m pip install torchvision==1.13.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 --no-cache-dir
+ 3803  python3 -m pip install torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 --no-cache-dir
+ 3804  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3805  nvidia-smi
+ 3806  python3 -m pip install datasets
+ 3807  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3808  nvidia-smi
+ 3809  conda install pybind11
+ 3810  df -h
+ 3811  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3812  which nvcc
+ 3813  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3814  df -h
+ 3815  nvidia-smi
+ 3816  squeue
+ 3817  nvidia-smi
+ 3818  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3819  df -h
+ 3820  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3821  nvidia-smi
+ 3822  df -h
+ 3823  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 3824  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3825  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 3826  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3827  df -h
+ 3828  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3829  python3
+ 3830  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3831  pip install sentencepiece
+ 3832  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3833  python3 -m pip install protobuf==3.20.0
+ 3834  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3835  df -h
+ 3836  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3837  nvidia-smi
+ 3838  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 3839  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3840  nvidia-smi
+ 3841  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 3842  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 3843  nvidia-smi
+ 3844  top
+ 3845  ls
+ 3846  nvidia-smi
+ 3847  bash puzzle/run.sh
+ 3848  nvidia-smi
+ 3849  bash puzzle/run.sh
+ 3850  squeue
+ 3851  nvidia-smi
+ 3852  top
+ 3853  squeue
+ 3854  nvidia-smi
+ 3855  nvitop
+ 3856  ls
+ 3857  top
+ 3858  nvidia-smi
+ 3859  top
+ 3860  nvidia-smi
+ 3861  ls
+ 3862  cd code/puzzle
+ 3863  ls
+ 3864  git log --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+ 3865  squeue
+ 3866  nvidia-smi
+ 3867  top 
+ 3868  nvidia-smi
+ 3869  top 
+ 3870  htop
+ 3871  squeue
+ 3872  nvidia-smi
+ 3873  nvitop
+ 3874  top
+ 3875  squeue
+ 3876  ls
+ 3877  cd code
+ 3878  ls
+ 3879  rm -rf puzzle-generate-2
+ 3880  cp -r puzzle puzzle-generate
+ 3881  tmux attach
+ 3882  conda activate megatron
+ 3883  spack load gcc@9.4.0
+ 3884  spack load cuda@11.7.1
+ 3885  cd puzzle
+ 3886  ls
+ 3887  cd ../puzzle-generate
+ 3888  ls
+ 3889  nvidia-smi
+ 3890  ls
+ 3891  bash test.sh
+ 3892  q
+ 3893  bash test.sh
+ 3894  tmux attach
+ 3895  tmux
+ 3896  conda activate megatron
+ 3897  spack load cuda@11.7.1
+ 3898  spack load gcc@9.4.0
+ 3899  cd code/puzzle-generate
+ 3900  ls
+ 3901  nvidia-smi
+ 3902  history | grep nvitop
+ 3903  conda install -c conda-forge nvitop
+ 3904  nvidia-smi
+ 3905  bash test.sh
+ 3906  nvidia-smi
+ 3907  squeue
+ 3908  nvidia-smi
+ 3909  top
+ 3910  nvidia-smi
+ 3911  top
+ 3912  nvidia-smi
+ 3913  ls
+ 3914  cd code/puzzle-generate
+ 3915  ls
+ 3916  bash test.sh
+ 3917  tmux attach
+ 3918  bash test.sh
+ 3919  bash test.sh
+ 3920  nvidia-smi
+ 3921  tmux attach
+ 3922  nvidia-smi
+ 3923  git stash
+ 3924  git pull
+ 3925  nvidia-smi
+ 3926  ls /mnt/data/zhongrx/Llama-2-7b-hf/
+ 3927  df -h
+ 3928  conda create -n ds python=3.9
+ 3929  conda activate ds
+ 3930  python3 -m pip install deepspeed
+ 3931  squeue
+ 3932  df -h
+ 3933  ls
+ 3934  conda rm env ds
+ 3935  conda env remove -n ds
+ 3936  conda activate megatron
+ 3937  conda env remove -n ds
+ 3938  df -h
+ 3939  ls 
+ 3940  cd /mnt/data/lijianwen/
+ 3941  ls -lhrt
+ 3942  du -h --max-depth=1 .
+ 3943  cd .cache
+ 3944  ls
+ 3945  cd huggingface/
+ 3946  ls
+ 3947  cd ..
+ 3948  ls
+ 3949  cd ..
+ 3950  ls
+ 3951  cd .cache
+ 3952  ls
+ 3953  rm -rf huggingface
+ 3954  cd ..
+ 3955  ls
+ 3956  df -h
+ 3957  top
+ 3958  nvidia-smi
+ 3959  du -h --max-depth=1 .
+ 3960  cd ..
+ 3961  du -h --max-depth=1 .
+ 3962  df -h
+ 3963  ls
+ 3964  nvidia-smi
+ 3965  squeue
+ 3966  nvidia-smiu
+ 3967  nvidia-smi
+ 3968  df -h
+ 3969  cd /mnt/data/lijianwen/
+ 3970  du -h --max-depth=1 .
+ 3971  nvidia-smi
+ 3972  cd ..
+ 3973  du -h --max-depth=1 .
+ 3974  ls
+ 3975  nvidia-smi
+ 3976  top
+ 3977  ls
+ 3978  cd code
+ 3979  ls
+ 3980  cd cuda-samples/Samples/5_Domain_Specific
+ 3981  ls
+ 3982  cd p2pBandwidthLatencyTest
+ 3983  ls
+ 3984  CUDA_VISIBLE_DEVICES=4,5,6,7 ./p2pBandwidthLatencyTest
+ 3985  df -h
+ 3986  tmux attach
+ 3987  nvidia-smi
+ 3988  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh 4
+ 3989  nvidia-smi
+ 3990  tmux attach
+ 3991  squeue
+ 3992  df -h
+ 3993  tmux attach
+ 3994  squeue
+ 3995  df -h
+ 3996  tmux attach
+ 3997  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh 4
+ 3998  nvidia-smi
+ 3999  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh 4
+ 4000  CUDA_VISIBLE_DEVICES=0,1, bash puzzle/run.sh 2
+ 4001  CUDA_VISIBLE_DEVICES=0,1,2 bash puzzle/run.sh 4
+ 4002  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh 4
+ 4003  nvidia-smi
+ 4004  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh 4
+ 4005  top
+ 4006  nvidia-smi
+ 4007  tmux attach
+ 4008  nvidia-smi
+ 4009  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh 4
+ 4010  CUDA_VISIBLE_DEVICES=0,1 bash puzzle/run.sh 2
+ 4011  nvidia-smi
+ 4012  tmux attach
+ 4013  conda activate megatron
+ 4014  pip show tensorboard
+ 4015  pip install tensorboard==2.14.0
+ 4016  tensorboard --logdir=./tb_logs/tp2
+ 4017  pip show torch-tb-profiler
+ 4018  python3 -m pip install torch-tb-profiler
+ 4019  tensorboard --logdir=./tb_logs/tp2
+ 4020  tensorboard --logdir=./tb_logs/tp4
+ 4021  tensorboard --logdir=./tb_logs/tp4 --port 6009
+ 4022  df -h
+ 4023  clear
+ 4024  exit
+ 4025  squeue
+ 4026  nvidia-smi
+ 4027  squeue
+ 4028  nvidia-smi
+ 4029  ls
+ 4030  cd code
+ 4031  ks
+ 4032  ls
+ 4033  mv puzzle puzzle-bak
+ 4034  bash test.sh
+ 4035  cd code/puzzle
+ 4036  ls
+ 4037  bash puzzle/run.sh
+ 4038  conda activate megatron
+ 4039  bash puzzle/run.sh
+ 4040  nvidia-smi
+ 4041  tmux attach
+ 4042  tmux
+ 4043  conda activate megatron
+ 4044  spack load gcc@9.4.0
+ 4045  spack load cuda@11.7.1
+ 4046  bash puzzle/run.sh
+ 4047  top
+ 4048  nvidia-smi
+ 4049  bash puzzle/run.sh
+ 4050  squeue
+ 4051  df -h
+ 4052  tmux attach
+ 4053  bash puzzle/run.sh
+ 4054  nvidia-smi
+ 4055  bash puzzle/run.sh
+ 4056  nvidia-smi
+ 4057  bash ./miniconda.sh -b -u -p /mnt/data/lijianwen/miniconda3
+ 4058  bash puzzle/run.sh
+ 4059  nvidia-smi
+ 4060  bash puzzle/run.sh
+ 4061  nvidia-smi
+ 4062  bash puzzle/run.sh
+ 4063  nvidia-smi
+ 4064  conda activate megatron
+ 4065  nvitop
+ 4066  bash puzzle/run.sh
+ 4067  nvitop
+ 4068  nvidia-smi
+ 4069  conda activate megatron
+ 4070  nvitop
+ 4071  nvidia-smi
+ 4072  tmux attach
+ 4073  nvidia-smi
+ 4074  bash puzzle/run.sh
+ 4075  nvidia-smi
+ 4076  top
+ 4077  bash puzzle/run.sh
+ 4078  mkdir mem_usage_log
+ 4079  ls
+ 4080  bash puzzle/run.sh
+ 4081  nvidia-smi
+ 4082  bash puzzle/run.sh
+ 4083  cd mem_usage_log
+ 4084  ls -lhrt
+ 4085  python -m pip install matplotlib
+ 4086  python3 plot.py
+ 4087  cd ..
+ 4088  bash puzzle/run.sh
+ 4089  cd mem_usage_log
+ 4090  ls
+ 4091  rm mem_usage_*.log
+ 4092  bash puzzle/run.sh
+ 4093  conda  activate megatron
+ 4094  python3 plot.py
+ 4095  conda  activate megatron
+ 4096  mkdir mem_usage_log_2
+ 4097  nvidia-smi
+ 4098  bash puzzle/run.sh
+ 4099  mv mem_usage_log_2 ..
+ 4100  bash puzzle/run.sh
+ 4101  cp ./plot.py ../mem_usage_log_2
+ 4102  cd ../mem_usage_log_2
+ 4103  python3 plot.py
+ 4104  ls
+ 4105  rm mem_usage_*.log
+ 4106  bash puzzle/run.sh
+ 4107  python3 plot.py
+ 4108  cd ..
+ 4109  mkdir mem_usage_log_3
+ 4110  squeue
+ 4111  nvidia-smi
+ 4112  bash puzzle/run.sh
+ 4113  nvidia-smi
+ 4114  bash puzzle/run.sh
+ 4115  nvidia-smi
+ 4116  nvitop
+ 4117  ls
+ 4118  rm mem_usage_log_3/*
+ 4119  ls
+ 4120  nvidia-smi
+ 4121  top
+ 4122  nvidia-smi
+ 4123  bash puzzle/run.sh
+ 4124  cd mem_usage_log_3
+ 4125  python3 plot.py
+ 4126  nvidia-smi
+ 4127  python3 plot.py
+ 4128  nvidia-smi
+ 4129  top
+ 4130  nvidia-smi
+ 4131  top
+ 4132  htop
+ 4133  nvitop
+ 4134  exit
+ 4135  nvidia-smi
+ 4136  htop
+ 4137  nvitop
+ 4138  conda  activate megatron
+ 4139  nvitop
+ 4140  exit
+ 4141  nvidia-smi
+ 4142  df -h
+ 4143  exit
+ 4144  nvidia-smi
+ 4145  nvitop
+ 4146  conda  activate megatron
+ 4147  nvitop
+ 4148  squeue
+ 4149  nvidia-smi
+ 4150  nvitop
+ 4151  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4152  tmux attach
+ 4153  tmux
+ 4154  conda  activate megatron
+ 4155  spack load cuda@11.7.1
+ 4156  spack load gcc@9.4.0
+ 4157  cd code/puzzle-generate
+ 4158  ls
+ 4159  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4160  nvitop
+ 4161  tmux attach
+ 4162  spack load gcc@9.4.0
+ 4163  which nvcc
+ 4164  which gcc
+ 4165  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4166  spack find
+ 4167  spack load gcc@12.2.0
+ 4168  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 4169  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4170  spack unload gcc@12.2.0
+ 4171  which gcc
+ 4172  spack unload gcc@9.4.0
+ 4173  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4174  nvitop
+ 4175  tmux attach
+ 4176  which gcc
+ 4177  gcc --version
+ 4178  spack load gcc@9.4.0
+ 4179  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4180  spack find
+ 4181  pip install ninja
+ 4182  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4183  srun -N1 -w nico4 ./build/host_device_bandwidth --device=gpu --num-runs=10
+ 4184  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4185  nvidia-smi
+ 4186  tmux attach
+ 4187  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4188  nvidia-smi
+ 4189  tmux attach
+ 4190  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4191  nvitop
+ 4192  tmux attach
+ 4193  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4194  nvitop
+ 4195  tmux attach
+ 4196  nvitop
+ 4197  tmux attach
+ 4198  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4199  nvitop
+ 4200  tmux attach
+ 4201  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4202  nvitop
+ 4203  tmux attach
+ 4204  nvitop
+ 4205  conda  activate megatron
+ 4206  nvitop
+ 4207  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4208  CUDA_VISIBLE_DEVICES=6 bash puzzle/run.sh
+ 4209  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4210  python3 plot.py
+ 4211  cd puzzle/pipeline/generation
+ 4212  python3 plot.py
+ 4213  python3 test.py
+ 4214  conda activate megatron
+ 4215  python3 -m pip install yaml
+ 4216  python3 test.py
+ 4217  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4218  nvitop
+ 4219  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4220  top
+ 4221  nvitop
+ 4222  cd ...
+ 4223  cd ..
+ 4224  df -h
+ 4225  cd ..
+ 4226  du -h --max-depth=1 .
+ 4227  du -h --max-depth=1 /mnt/data/
+ 4228  ls
+ 4229  nvitop
+ 4230  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4231  nvitop
+ 4232  conda activate megatron
+ 4233  nvitop
+ 4234  tmux attach
+ 4235  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4236  python3 test.py
+ 4237  conda activate megatron
+ 4238  python3 test.py
+ 4239  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4240  python3 test.py
+ 4241  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4242  squeue
+ 4243  conda activate megatron
+ 4244  nvitop
+ 4245  tmux attach
+ 4246  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4247  python3 test.py
+ 4248  conda activate megatron
+ 4249  python3 test.py
+ 4250  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4251  python3 test.py
+ 4252  tmux attach
+ 4253  nvitop
+ 4254  conda activate megatron
+ 4255  nvitop
+ 4256  python3 test.py
+ 4257  conda activate megatron
+ 4258  python3 test.py
+ 4259  tmux attach
+ 4260  CUDA_VISIBLE_DEVICES=4,5 bash puzzle/run.sh
+ 4261  python3 test.py
+ 4262  tmux attach
+ 4263  python3 test.py
+ 4264  cd plot_data/2-tp-pp_bsz32
+ 4265  python3 test.py
+ 4266  CUDA_VISIBLE_DEVICES=4,5 bash puzzle/run.sh
+ 4267  cd ..
+ 4268  cp -r ./2-tp-pp_bsz32 2-tp-pp_bsz64
+ 4269  cd 2-tp-pp_bsz32
+ 4270  python3 test.py
+ 4271  cd ../2-tp-pp_bsz64
+ 4272  python3 test.py
+ 4273  CUDA_VISIBLE_DEVICES=4,5 bash puzzle/run.sh
+ 4274  cd ../2-tp-pp_bsz16
+ 4275  python3 test.py
+ 4276  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4277  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4278  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4279  nvitop
+ 4280  conda activate megatron
+ 4281  nvitop
+ 4282  tmux attach
+ 4283  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4284  conda activate megatron
+ 4285  torchrun --nproc_per_node 2 --nnodes 1 --node_rank 0 ./test.py
+ 4286  CUDA_DEVICE_MAX_CONNECTIONS=1 torchrun --nproc_per_node 2 --nnodes 1 --node_rank 0 ./test.py
+ 4287  tmux attach
+ 4288  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4289  nvidia-smi
+ 4290  nvitop
+ 4291  tmux attach
+ 4292  conda activate megatron
+ 4293  nvitop
+ 4294  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4295  tmux attach
+ 4296  nvitop
+ 4297  conda activate megatron
+ 4298  nvitop
+ 4299  tmux attach
+ 4300  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4301  tmux attach
+ 4302  conda activate megatron
+ 4303  nvitop
+ 4304  tmux attach
+ 4305  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4306  nvitop
+ 4307  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4308  sr
+ 4309  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4310  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4311  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4312  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4313  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4314  exit
+ 4315  nvidia-smi
+ 4316  conda activate megatron
+ 4317  nvitop
+ 4318  squeue
+ 4319  nvidia-smi
+ 4320  conda activate megatron
+ 4321  nvitop
+ 4322  nvidia-smi -L
+ 4323  nvidia-smi topo -m
+ 4324  nvitop
+ 4325  tmux attach
+ 4326  CUDA_VISIBLE_DEVICES=2,3 bash puzzle/run.sh
+ 4327  ls
+ 4328  cd workspace
+ 4329  ls
+ 4330  cd ../code
+ 4331  ls
+ 4332  cd cuda-samples/Samples/5_Domain_Specific
+ 4333  ls
+ 4334  cd p2pBandwidthLatencyTest
+ 4335  ls
+ 4336  tmux attach
+ 4337  CUDA_VISIBLE_DEVICES=2,3 ./p2pBandwidthLatencyTest 
+ 4338  CUDA_VISIBLE_DEVICES=1,2 ./p2pBandwidthLatencyTest 
+ 4339  tmux attach
+ 4340  CUDA_VISIBLE_DEVICES=0,1 bash puzzle/run.sh
+ 4341  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4342  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4343  CUDA_VISIBLE_DEVICES=4,5,6,7 ./p2pBandwidthLatencyTest 
+ 4344  tmux attach
+ 4345  CUDA_VISIBLE_DEVICES=1 bash puzzle/run.sh
+ 4346  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4347  nvidia-smi
+ 4348  ls
+ 4349  ps
+ 4350  top
+ 4351  clear
+ 4352  conda activate megatron
+ 4353  nvidia-smi
+ 4354  nvitop
+ 4355  tmux attach
+ 4356  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4357  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4358  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4359  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4360  kill -9 1405741
+ 4361  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4362  cd code
+ 4363  cd cuda-samples/Samples/5_Domain_Specific
+ 4364  cd p2pBandwidthLatencyTest
+ 4365  ./p2pBandwidthLatencyTest
+ 4366  nvitop
+ 4367  tmux attach
+ 4368  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4369  nvitop
+ 4370  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4371  conda activate megatron
+ 4372  nvitop
+ 4373  nvidia-smi
+ 4374  nvitop
+ 4375  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4376  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4377  bash puzzle/run.sh
+ 4378  cd ../puzzle
+ 4379  bash puzzle/run.sh
+ 4380  conda activate megatron
+ 4381  nvitop
+ 4382  nvidia-smi
+ 4383  nvitop
+ 4384  conda activate megatron
+ 4385  nvitop
+ 4386  ls
+ 4387  conda install -c conda-forge nvitop
+ 4388  conda activate base
+ 4389  conda install -c conda-forge nvitop
+ 4390  nvitop
+ 4391  clear
+ 4392  nvitop
+ 4393  tmux attach
+ 4394  bash puzzle/run.sh
+ 4395  python3
+ 4396  conda activate megatron
+ 4397  python3 -m pip install pydot
+ 4398  python3 test.py
+ 4399  squeue
+ 4400  nvidia-smi
+ 4401  nvitop
+ 4402  CUDA_VISIBLE_DEVICES=4 python3 test_offload.py
+ 4403  conda activate megatron
+ 4404  CUDA_VISIBLE_DEVICES=4 python3 test_offload.py
+ 4405  nvitop
+ 4406  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4407  nvitop
+ 4408  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4409  tmux attach
+ 4410  nvitop
+ 4411  conda activate megatron
+ 4412  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4413  CUDA_VISIBLE_DEVICES=1 python3 profile_bw.py
+ 4414  nvitop
+ 4415  ps
+ 4416  top
+ 4417  nvitop
+ 4418  find . -name flop
+ 4419  find / -name flop
+ 4420  df -h
+ 4421  ls /mnt/nvme
+ 4422  find /mnt/data -name flop
+ 4423  ls /mnt/data -
+ 4424  nvitop
+ 4425  CUDA_VISIBLE_DEVICES=1 python3 profile_bw.py
+ 4426  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4427  nvitop
+ 4428  squeue
+ 4429  conda activate megatron
+ 4430  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4431  CUDA_VISIBLE_DEVICES=3 python3 profile_bw.py
+ 4432  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4433  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4434  pwd
+ 4435  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4436  CUDA_VISIBLE_DEVICES=5 python3 test_offload.py
+ 4437  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4438  pip show accelerate
+ 4439  python3 -m pip install accelerate
+ 4440  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4441  wget https://github.com/chadqiu/newcoder-crawler/blob/main/train.csv
+ 4442  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4443  python3 -m pip install trl
+ 4444  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4445  python3
+ 4446  ls
+ 4447  IP=172.23.111.197\nPORT=36556\nexport https_proxy=http://$IP:$PORT\nexport http_proxy=http://$IP:$PORT\nexport all_proxy=socks5://$IP:$PORT
+ 4448  echo $https_proxy
+ 4449  python3
+ 4450  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4451  python3
+ 4452  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4453  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4454  clear
+ 4455  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4456  nvidia-smi
+ 4457  tmux attach
+ 4458  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4459  conda activate megatron
+ 4460  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4461  nvitop
+ 4462  top
+ 4463  nvidia-smi
+ 4464  nvitop
+ 4465  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4466  ls
+ 4467  df =h
+ 4468  df -h
+ 4469  pwd
+ 4470  nvidia-smi
+ 4471  exit
+ 4472  df -h
+ 4473  conda activate megatron
+ 4474  CUDA_VISIBLE_DEVICES=3 python3 test_offload.py
+ 4475  nvitop
+ 4476  CUDA_VISIBLE_DEVICES=1 python3 test_offload.py
+ 4477  conda activate megatron
+ 4478  tmux new -s mg
+ 4479  cd code/puzzle
+ 4480  ls
+ 4481  conda activate megatron
+ 4482  spack load gcc@9.4.0
+ 4483  spack load cuda@11.7.1
+ 4484  CUDA_VISIBLE_DEVICES=1,2 python3 test_offload.py
+ 4485  CUDA_VISIBLE_DEVICES=1,2 python3 puzzle/run.sh
+ 4486  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4487  df -h
+ 4488  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4489  rm mem_usage_log_3/*
+ 4490  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4491  python3 test.py
+ 4492  cd mem_usage_log_3
+ 4493  python3 test.py
+ 4494  cd ..
+ 4495  mkdir mem_usage_log_4
+ 4496  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4497  cd ../mem_usage_log_4
+ 4498  cd ./mem_usage_log_4
+ 4499  python3 test.py
+ 4500  cd ..
+ 4501  python3 plot.py
+ 4502  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4503  /mnt/data/lijianwen/miniconda3/envs/megatron/bin/python
+ 4504  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4505  tmux attach
+ 4506  nvidia-smi
+ 4507  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4508  tmux attach
+ 4509  nvidia-smi
+ 4510  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4511  nvitop
+ 4512  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4513  exit
+ 4514  tmux attach
+ 4515  nvitop
+ 4516  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4517  CUDA_VISIBLE_DEVICES=1,2 python3 test_offload.py
+ 4518  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4519  python3
+ 4520  conda activate megatron
+ 4521  python3
+ 4522  tmux attach
+ 4523  nvitop
+ 4524  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4525  ls -lhrt
+ 4526  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4527  nvitop
+ 4528  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4529  nvidia
+ 4530  nvidia-smi
+ 4531  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4532  nvitop
+ 4533  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4534  nvitop
+ 4535  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4536  tmux attach
+ 4537  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4538  nvidia-smi
+ 4539  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4540  nvidia-smi
+ 4541  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4542  conda activate megatron
+ 4543  nvitop
+ 4544  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4545  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4546  python3
+ 4547  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4548  cd ..
+ 4549  git clone -b dis-bubble-gen git@github.com:kinman0224/puzzle.git puzzle-dis-bubble
+ 4550  cd ../puzzle-dis-bubble
+ 4551  ls
+ 4552  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4553  pip show torch
+ 4554  cd ../puzzle
+ 4555  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4556  cd ../puzzle-dis-bubble
+ 4557  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4558  cd ../puzzle
+ 4559  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4560  cd ../puzzle-dis-bubble
+ 4561  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4562  cd ../puzzle
+ 4563  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4564  git config --global user.name "leikinman"
+ 4565  git config --global user.email "jasonleikin@gmail.com"
+ 4566  git config --global user.name
+ 4567  CUDA_VISIBLE_DEVICES=4 python3 test_offload.py
+ 4568  tmux attach
+ 4569  exit
+ 4570  nvitop
+ 4571  CUDA_VISIBLE_DEVICES=4 python3 test_offload.py
+ 4572  conda activate megatron
+ 4573  CUDA_VISIBLE_DEVICES=4 python3 test_offload.py
+ 4574  CUDA_VISIBLE_DEVICES=4 python3 test_offload2.py
+ 4575  nnvidia-smi
+ 4576  nvidia-smi
+ 4577  CUDA_VISIBLE_DEVICES=4 python3 test_offload2.py
+ 4578  squeue
+ 4579  nvidia-smi
+ 4580  ls
+ 4581  conda activate megatron
+ 4582  python3 test_offload2.py
+ 4583  CUDA_VISIBLE_DEVICES=3 python3 test_offload2.py
+ 4584  ls -lhrt
+ 4585  CUDA_VISIBLE_DEVICES=3 python3 test_offload2.py
+ 4586  squeue
+ 4587  nvidia-smi
+ 4588  CUDA_VISIBLE_DEVICES=2 python3 test_offload2.py
+ 4589  nvidia-smi
+ 4590  CUDA_VISIBLE_DEVICES=2 python3 test_offload2.py
+ 4591  clear
+ 4592  CUDA_VISIBLE_DEVICES=2 python3 test_offload2.py
+ 4593  squeue
+ 4594  nvitop
+ 4595  CUDA_VISIBLE_DEVICES=2 python3 test_offload2.py
+ 4596  conda activate megatron
+ 4597  CUDA_VISIBLE_DEVICES=2 python3 test_offload2.py
+ 4598  CUDA_VISIBLE_DEVICES=1 python3 test_offload2.py
+ 4599  nvitop
+ 4600  CUDA_VISIBLE_DEVICES=1 python3 test_offload2.py
+ 4601  nvitop
+ 4602  tmux attach
+ 4603  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4604  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4605  nvidia-smi
+ 4606  tmux attach
+ 4607  CUDA_VISIBLE_DEVICES=6,7 bash puzzle/run.sh
+ 4608  nvidia-smi
+ 4609  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4610  nvidia-smi
+ 4611  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4612  nvitop
+ 4613  0;74;11M0;74;11m
+ 4614  tmux attach
+ 4615  nvitop
+ 4616  tmux attach
+ 4617  nvitop
+ 4618  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4619  top
+ 4620  htop
+ 4621  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4622  CUDA_VISIBLE_DEVICES=4 python3 test_offload2.py
+ 4623  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4624  ls
+ 4625  tmux attach
+ 4626  nvidia-smi
+ 4627  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4628  nvitop
+ 4629  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4630  CUDA_VISIBLE_DEVICES=1,2 bash puzzle/run.sh
+ 4631  CUDA_VISIBLE_DEVICES=1,2 python3 test_offload.py
+ 4632  history | grep torchrun
+ 4633  tmux attach
+ 4634  nvitop
+ 4635  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4636  tmux attach
+ 4637  nvitop
+ 4638  tmux attach
+ 4639  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4640  df -h
+ 4641  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4642  tmux attach
+ 4643  nvitop
+ 4644  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4645  tmux attach
+ 4646  nvitop
+ 4647  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4648  tmux attach
+ 4649  nvitop
+ 4650  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4651  /mnt/data/lijianwen/miniconda3/envs/megatron/bin/python
+ 4652  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4653  tmux attach
+ 4654  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4655  tmux attach
+ 4656  nvitop
+ 4657  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4658  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4659  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4660  top
+ 4661  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4662  top
+ 4663  htop
+ 4664  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4665  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4666  CUDA_VISIBLE_DEVICES=1,2,3,4 bash puzzle/run.sh
+ 4667  CUDA_VISIBLE_DEVICES=1,2,3,5 bash puzzle/run.sh
+ 4668  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4669  CUDA_VISIBLE_DEVICES=4 python3 profile_bw.py
+ 4670  CUDA_VISIBLE_DEVICES=5 python3 profile_bw.py
+ 4671  top
+ 4672  CUDA_VISIBLE_DEVICES=5 python3 profile_bw.py
+ 4673  CUDA_VISIBLE_DEVICES=4 python3 profile_bw.py
+ 4674  CUDA_VISIBLE_DEVICES=7 python3 profile_bw.py
+ 4675  CUDA_VISIBLE_DEVICES=6 python3 profile_bw.py
+ 4676  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4677  exit
+ 4678  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4679  top
+ 4680  htop
+ 4681  top
+ 4682  htop
+ 4683  nvitop
+ 4684  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4685  tmux attach
+ 4686  nvidia-smi
+ 4687  CUDA_VISIBLE_DEVICES=6 python3 profile_bw.py
+ 4688  nvitop
+ 4689  CUDA_VISIBLE_DEVICES=6 python3 profile_bw.py
+ 4690  nvitop
+ 4691  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4692  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4693  nvitop
+ 4694  tmux attach
+ 4695  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4696  nvitop
+ 4697  tmux attach
+ 4698  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4699  python3
+ 4700  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4701  tmux attach
+ 4702  nvitop
+ 4703  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4704  tmux attach
+ 4705  nvitop
+ 4706  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4707  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4708  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4709  tmux attach
+ 4710  nvitop
+ 4711  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4712  cd ../puzzle-dis-bubble
+ 4713  ls
+ 4714  nvito
+ 4715  nvitop
+ 4716  tmux attach
+ 4717  nvitop
+ 4718  tmux atach
+ 4719  tmux attach
+ 4720  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4721  tmux attach
+ 4722  nvidia-smi
+ 4723  nvitop
+ 4724  tmux attach
+ 4725  nvitop
+ 4726  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4727  /mnt/data/lijianwen/miniconda3/envs/megatron/bin/python
+ 4728  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4729  tmux attach
+ 4730  nvitop
+ 4731  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4732  kill -9 1044333
+ 4733  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4734  CUDA_VISIBLE_DEVICES=1,2,3,4 bash puzzle/run.sh
+ 4735  kill -9 1203454
+ 4736  top
+ 4737  tmux attach
+ 4738  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4739  conda activate megatron
+ 4740  spack load cuda@11.7.1
+ 4741  cd code/cuda-samples/Samples/5_Domain_Specific/p2pBandwidthLatencyTest
+ 4742  ls
+ 4743  CUDA_VISIBLE_DEVICES=4,5,6,7 ./p2pBandwidthLatencyTest
+ 4744  tmux attach
+ 4745  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4746  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4747  exiit
+ 4748  exit
+ 4749  nvidia-smi
+ 4750  top
+ 4751  nvidia-smi
+ 4752  nvitop
+ 4753  tmux attach
+ 4754  gcc --version
+ 4755  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4756  nvidia-smi
+ 4757  ls
+ 4758  cd code
+ 4759  ls
+ 4760  scp -r ./puzzle -p 41198 zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4761  scp -p 41198 -r ./puzzle zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4762  ssh -p 41198 zhaijidong@172.23.100.33
+ 4763  scp -p 41198 -r ./puzzle zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4764  scp --help
+ 4765  ls
+ 4766  touch test.txt
+ 4767  scp -p 41198 -r ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4768  cat ~/.ssh/id_rsa.pub
+ 4769  top
+ 4770  cat ~/.ssh/id_rsa.pub
+ 4771  nvitop
+ 4772  cat ~/.ssh/id_rsa.pub
+ 4773  scp -p 41198 -r ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4774  ssh -p 41198 zhaijidong@172.23.100.33
+ 4775  scp -p 41198 -r ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4776  scp -p 41198 ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4777  scp -p 41198 ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman -p 41198
+ 4778  scp ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman -p 41198
+ 4779  scp -p 41198 ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4780  exit
+ 4781  vim ~/.ssh/co
+ 4782  vim ~/.ssh/config
+ 4783  ssh mngg
+ 4784  cd code
+ 4785  ls
+ 4786  scp -r ./puzzle mngg:~/kinman
+ 4787  ls
+ 4788  cd puzzle
+ 4789  ls
+ 4790  ls -lhret
+ 4791  ls -lhrt
+ 4792  rm test_0.json test_1.json test_2.json test_3.json 
+ 4793  ls
+ 4794  ls -lhrt
+ 4795  du -h --max-depth=1 .
+ 4796  scp -r ./puzzle mngg:~/kinman
+ 4797  cd ..
+ 4798  ls
+ 4799  scp -r ./puzzle mngg:~/kinman
+ 4800  ls /mnt/data/zhongrx/Llama-2-7b-hf/
+ 4801  scp /mnt/data/zhongrx/Llama-2-7b-hf/config.json /home/zhaijidong/kinman/data/Llama-2-7b-hf
+ 4802  scp /mnt/data/zhongrx/Llama-2-7b-hf/config.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf
+ 4803  scp /mnt/data/zhongrx/Llama-2-7b-hf/tokenizer.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/7b-hf
+ 4804  scp /mnt/data/zhongrx/Llama-2-7b-hf/tokenizer.model mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/7b-hf
+ 4805  scp /mnt/data/zhongrx/Llama-2-7b-hf/tokenizer_config.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/7b-hf
+ 4806  nvitop
+ 4807  tmux attach
+ 4808  CUDA_VISIBLE_DEVICES=0,1,2,3 bash puzzle/run.sh
+ 4809  CUDA_VISIBLE_DEVICES=4,5,6,7 bash puzzle/run.sh
+ 4810  cat ~/.zshrc
+ 4811  pip show torch
+ 4812  history | grep pip
+ 4813  cd code
+ 4814  ls
+ 4815  pip show apex
+ 4816  history | grep apex
+ 4817  history | grep apex -A 10
+ 4818  history | gre ghproxy
+ 4819  history | grep ghproxy
+ 4820  tmux attach
+ 4821  pip show transformers
+ 4822  pip show numpy
+ 4823  pip show datasets
+ 4824  cd /mnt/data/zhongrx/Llama-2-7b-hf/
+ 4825  ls
+ 4826  scp /mnt/data/zhongrx/Llama-2-7b-hf/tokenizer_config.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/ 
+ 4827  scp /mnt/data/zhongrx/Llama-2-7b-hf/tokenizer.model mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/ 
+ 4828  scp /mnt/data/zhongrx/Llama-2-7b-hf/tokenizer.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/ 
+ 4829  scp /mnt/data/zhongrx/Llama-2-7b-hf/generation_config.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/ 
+ 4830  scp /mnt/data/zhongrx/Llama-2-7b-hf/special_tokens_map.json mngg:/home/zhaijidong/kinman/data/Llama-2-7b-hf/ 
+ 4831  cd /mnt/data/lijianwen/huggingface
+ 4832  ls
+ 4833  scp ./Dahoas mngg:/home/zhaijidong/kinman/data/
+ 4834  scp ./Dahoas mngg:/home/zhaijidong/kinman/data/ -r
+ 4835  scp -r ./Dahoas mngg:/home/zhaijidong/kinman/data/
+ 4836  conda activate megatron
+ 4837  pip show transformers
+ 4838  python3
+ 4839  pip list | grep sense
+ 4840  pip list | grep senten
+ 4841  pip show protobuf
+ 4842  ssh mngg
+ 4843  nvitop
+ 4844  tmux attach
+ 4845  nvitop
+ 4846  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4847  nvitop
+ 4848  top
+ 4849  nvitop
+ 4850  exit
+ 4851  tmux a
+ 4852  nvitop
+ 4853  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4854  scp -p 41198 -r ./test.txt zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4855  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4856  ls
+ 4857  cd code/cuda-samples/
+ 4858  ls
+ 4859  cd ..
+ 4860  scp -p 41198 -r cuda-samples zhaijidong@172.23.100.33:/home/zhaijidong/kinman
+ 4861  scp -p 41198 -r cuda-samples mngg:/home/zhaijidong/kinman
+ 4862  scp -r cuda-samples mngg:/home/zhaijidong/kinman
+ 4863  history | grep p2p
+ 4864  history | grep p2p -A 2
+ 4865  history | grep p2p -A 10
+ 4866  nvitop
+ 4867  history | grep ghproxy
+ 4868  tmux a
+ 4869  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash puzzle/run.sh
+ 4870  ssh mngg
+ 4871  nvidia-smi
+ 4872  exit
+ 4873  history | grep PROXY
+ 4874  exit
+ 4875  tmux attach
+ 4876  which python
+ 4877  which nvcc 
+ 4878  which gcc
+ 4879  conda activate megatron
+ 4880  mkdir hkztmp
+ 4881  cd hkztmp
+ 4882  ls
+ 4883  scp -r huangkz@nico0:/home/kinman/code/tmp/puzzle .
+ 4884  cd puzzle
+ 4885  ls
+ 4886  cd examples
+ 4887  ls
+ 4888  cd llama
+ 4889  ls
+ 4890  vim pretrain_llama_7b_distributed_with_mp.sh
+ 4891  cd ..
+ 4892  ls
+ 4893  cd ..
+ 4894  ls
+ 4895  find -name data*
+ 4896  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 4897  scp -r huangkz@nico0:/home/kinman/code/RLHF/megatron-llama/data-spm ..
+ 4898  ls ..
+ 4899  realpath ../data-spm
+ 4900  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 4901  ls /home/lijianwen/hkztmp/data-spm
+ 4902  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 4903  bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4904  which nvcc
+ 4905  spack load cuda@11.7.1
+ 4906  which nvcc
+ 4907  bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4908  ls
+ 4909  ack 90
+ 4910  vim megatron/fused_kernels/__init__.py
+ 4911  bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4912  spack load gcc@9.4.0
+ 4913  bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4914  nvidia-smi
+ 4915  ps aux | grep 3681289
+ 4916  nvidia-smi
+ 4917  kill %
+ 4918  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4919  htop
+ 4920  cd hkztmp
+ 4921  ls
+ 4922  cd puzzle
+ 4923  ls
+ 4924  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 4925  vim pretrain_llama.py
+ 4926  vim megatron/model/llama_model.py
+ 4927  nvidia-smi
+ 4928  vim megatron/model/llama_model.py
+ 4929  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 4930  vim pretrain_llama.py
+ 4931  vim ~/.ssh/authorized_keys
+ 4932  exit
+ 4933  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4934  pip install peft
+ 4935  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4936  nvidia-smi
+ 4937  ps aux | grep 3714366
+ 4938  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4939  nvidia-smi
+ 4940  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4941  nvidia-smi
+ 4942  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4943  git checkout -b hkz-llama
+ 4944  git add -i
+ 4945  git commit -m "megatron llama peft"
+ 4946  git push
+ 4947  git push --set-upstream origin hkz-llama
+ 4948  tmux a -t hkz
+ 4949  # CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4950  ls
+ 4951  tmux a -t hkz \n
+ 4952  ls
+ 4953  pwd
+ 4954  cd ..
+ 4955  ls
+ 4956  cd puzzle
+ 4957  ls
+ 4958  cd examples\n
+ 4959  ls
+ 4960  cd llama
+ 4961  ls
+ 4962  cat pretrain_llama_7b_distributed_with_mp.sh
+ 4963  ls
+ 4964  cd ../..
+ 4965  ls
+ 4966  cat pretrain_llama.py
+ 4967  ls
+ 4968  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4969  ls
+ 4970  vim examples/pretrain_llama_7b_distributed_with_mp.sh
+ 4971  history
+ 4972  git remote
+ 4973  vim examples
+ 4974  ls
+ 4975  vim examples/pretrain_llama_7b_distributed_with_mp.sh
+ 4976  ls
+ 4977  cd examples
+ 4978  ls
+ 4979  cd llama
+ 4980  ls
+ 4981  vim pretrain_llama_7b_distributed_with_mp.sh
+ 4982  ls
+ 4983  cd ..
+ 4984  ls
+ 4985  cd ..
+ 4986  ls
+ 4987  vim pretrain_llama.py
+ 4988  ls
+ 4989  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 4990  tmux a
+ 4991  ls
+ 4992  vim
+ 4993  vim 
+ 4994  vim examples
+ 4995  cd examples/llama
+ 4996  ls
+ 4997  cd ../..
+ 4998  ls
+ 4999  vim pretrain_llama.py
+ 5000  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5001  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5002  cd ../..
+ 5003  pwd
+ 5004  cd hkztmp
+ 5005  ls
+ 5006  cd puzzle
+ 5007  ls
+ 5008  vim pretrain_llama.py
+ 5009  ls
+ 5010  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5011  vim pretrain_llama.py
+ 5012  cd megatron
+ 5013  ls
+ 5014  cd model
+ 5015  ls
+ 5016  cat llama_model.py
+ 5017  vim llama_model.py
+ 5018  ls
+ 5019  vim llama_model.py
+ 5020  ls
+ 5021  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5022  cd ../..
+ 5023  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5024  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5025  vim pretrain_llama.py
+ 5026  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5027  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5028  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5029  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5030  nvidia-smi
+ 5031  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5032  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5033  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5034  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5035  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5036  CU
+ 5037  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5038  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/pretrain_llama_7b_distribute
+ 5039  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5040  ls
+ 5041  tmux a -t hkz \n
+ 5042  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5043  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5044  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5045  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5046  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5047  python pretrain_llama.py -h --use_flash_attn
+ 5048  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5049  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5050  vim pretrain_llama.py
+ 5051  cd utils/config
+ 5052  vim utils/config
+ 5053  cd utils
+ 5054  ls
+ 5055  cd puzzle/utils
+ 5056  ls
+ 5057  cd config
+ 5058  ls
+ 5059  cd ..
+ 5060  ls
+ 5061  vim utils.py
+ 5062  ls
+ 5063  cd config
+ 5064  ls
+ 5065  cd ../..
+ 5066  ls
+ 5067  cd ..
+ 5068  ls
+ 5069  vim pretrain_llama.py
+ 5070  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5071  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5072  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5073  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5074  ls
+ 5075  vim pretrain_llama.py
+ 5076  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5077  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5078  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5079  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5080  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5081  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5082  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5083  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5084  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5085  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5086  vim pretrain_llama.py
+ 5087  ls
+ 5088  cd puzzle/utils/config
+ 5089  ls
+ 5090  vim model_parallel_config.py
+ 5091  vim transformer_config.py
+ 5092  ls
+ 5093  vim __init__.py
+ 5094  vim transformer_config.py
+ 5095  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5096  cd ../..
+ 5097  cd ..
+ 5098  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5099  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5100  vim pretrain_llama.py
+ 5101  ls
+ 5102  cd megatron/model
+ 5103  ls
+ 5104  vim llama_model.py
+ 5105  recompute-activations
+ 5106  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5107  cd ../..
+ 5108  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5109  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5110  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5111  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5112  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5113  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5114  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh 
+ 5115  vim llama_model.py
+ 5116  ls
+ 5117  vim pretrain_llama.py
+ 5118  ls
+ 5119  cd puzzle
+ 5120  ls
+ 5121  cd utils
+ 5122  ls
+ 5123  cd utils
+ 5124  cd config
+ 5125  ls
+ 5126  vim transformer_config.py
+ 5127  cd ..
+ 5128  cd ../..
+ 5129  vim pretrain_llama.py
+ 5130  cd model
+ 5131  ls
+ 5132  cd megatron/model
+ 5133  vim llama_model.py
+ 5134  vim gpt_model.py
+ 5135  ls
+ 5136  tmux a -t hkz \n
+ 5137  ls
+ 5138  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5139  ls
+ 5140  cd ../..
+ 5141  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5142  cd hkztmp
+ 5143  ls
+ 5144  cd puzzle
+ 5145  ls
+ 5146  history | less
+ 5147  ls
+ 5148* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5149* tmux ls
+ 5150* tmux a -t hkz2
+ 5151  conda activate megatron
+ 5152  spack load gcc@9.4.0
+ 5153  spack load cuda@11.7.1
+ 5154  vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5155  cp examples/llama/pretrain_llama_7b_distributed_with_mp.sh examples/llama/70b.sh
+ 5156  vim examples/llama/70b.sh
+ 5157  bash examples/llama/70b.sh
+ 5158* nvidia-smi
+ 5159  kill %
+ 5160* nvidia-smi
+ 5161  cp examples/llama/70b.sh examples/llama/7b.sh
+ 5162  vim examples/llama/7b.sh
+ 5163* ls /mnt/data/zhongrx/Llama-2-7b-hf/
+ 5164  bash examples/llama/7b.sh
+ 5165* nvidia-smi
+ 5166* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5167* bash examples/llama/7b.sh
+ 5168* nvidia-smi
+ 5169* ls
+ 5170* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5171* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5172* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5173* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5174* nvidia-smi
+ 5175* ps aux | grep 183358
+ 5176* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5177* vim pretrain_llama.py
+ 5178* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5179* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5180* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5181* vim pretrain_llama.py
+ 5182* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5183* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5184* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5185* vim pretrain_llama.py
+ 5186* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5187* vim examples/llama
+ 5188* ls
+ 5189* cd puzzle/utils/config
+ 5190* ls
+ 5191* cd ../..
+ 5192* cd ..
+ 5193* cd model
+ 5194* ls
+ 5195* cd megatron/model
+ 5196* ls
+ 5197* vim transformer_config.py
+ 5198* vim transformer.py
+ 5199  CUDA_VISIBLE_DEVICES=2,3 bash examples/llama/7b.sh
+ 5200* vim transformer.py
+ 5201* ls
+ 5202* cd llama_model.py
+ 5203* vim llama_model.py
+ 5204* CUDA_VISIBLE_DEVICES=2,3 bash examples/llama/7b.sh
+ 5205  vim examples/llama/7b.sh
+ 5206  CUDA_VISIBLE_DEVICES=2,3 bash examples/llama/7b.sh
+ 5207* nvidia-smi
+ 5208  vim examples/llama/7b.sh
+ 5209  CUDA_VISIBLE_DEVICES=0,1,2,3 bash examples/llama/7b.sh
+ 5210* cd ..
+ 5211* ls
+ 5212* cd ..
+ 5213* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5214* CUDA_VISIBLE_DEVICES=0,1,2,3 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5215  cd ..
+ 5216  cp -r puzzle hkz-megatron
+ 5217  cd hkz-megatron
+ 5218  ls
+ 5219* cd hkz-megatron
+ 5220* ls
+ 5221* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5222  bash examples/llama/7b.sh
+ 5223* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5224* cd megatron/model/
+ 5225* vim llama_model.py
+ 5226* cd ../..
+ 5227* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5228* pip install flash-attn
+ 5229  bash examples/llama/7b.sh
+ 5230  vim examples/llama/7b.sh
+ 5231  bash examples/llama/7b.sh
+ 5232* pip install flash-attn
+ 5233* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5234* vim megatron/model/llama_model.py
+ 5235  bash examples/llama/7b.sh
+ 5236* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5237* bash examples/llama/7b.sh
+ 5238  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5239  vim examples/llama/7b.sh
+ 5240  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5241  bash examples/llama/7b.sh
+ 5242* vim megatron/model/llama_model.py
+ 5243  bash examples/llama/7b.sh
+ 5244* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5245* nvidia-smi
+ 5246* vim megatron/model/llama_model.py
+ 5247* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5248* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5249* nvidia-smi
+ 5250* watch nvidia-smi
+ 5251  bash examples/llama/7b.sh
+ 5252  bash examples/llama/70b.sh
+ 5253* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5254* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5255* cd megatron/model
+ 5256* ls
+ 5257* git ls
+ 5258* git status
+ 5259* git add llama_model.py
+ 5260* git commit -m "add flash attn"
+ 5261* history
+ 5262* git push --set-upstream origin hkz-llama
+ 5263* git push
+ 5264* history
+ 5265* git status
+ 5266* git push
+ 5267* watch nvidia-smi
+ 5268* git remote
+ 5269* git remote -v
+ 5270* cd ../..
+ 5271* vim pretrain_llama.py
+ 5272* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5273* nvidia-smi
+ 5274* tmux a -t hkz \n
+ 5275* ls
+ 5276* vim pretrain_llama.py
+ 5277* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5278* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5279* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5280* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5281* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5282* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5283* ls
+ 5284* cd me
+ 5285* cd megatron/model
+ 5286* ls
+ 5287* vim llama_model.py
+ 5288* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5289* cd ../..
+ 5290* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5291* vim  examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5292* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5293* vim pretrain_llama.py
+ 5294  vim examples/llama/70b.sh
+ 5295  bash examples/llama/70b.sh
+ 5296  vim examples/llama/70b.sh
+ 5297  bash examples/llama/70b.sh
+ 5298  vim examples/llama/70b.sh
+ 5299  bash examples/llama/70b.sh
+ 5300  vim examples/llama/70b.sh
+ 5301  bash examples/llama/70b.sh
+ 5302  vim examples/llama/70b.sh
+ 5303  bash examples/llama/70b.sh
+ 5304  vim examples/llama/70b.sh
+ 5305  bash examples/llama/70b.sh
+ 5306  vim examples/llama/70b.sh
+ 5307  bash examples/llama/70b.sh
+ 5308  vim examples/llama/70b.sh
+ 5309* tmux a -t hkz \n
+ 5310* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5311* vim examples/llama/70b.sh
+ 5312* vim pretrain_llama.py
+ 5313* vim  examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5314* vim examples/llama/70b.sh
+ 5315* vim  examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5316* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5317* vim examples/llama/70b.sh
+ 5318* vim  examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5319* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5320* vim  examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5321* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5322  cd ..
+ 5323  ls
+ 5324  cd puzzle
+ 5325  git status
+ 5326  git add -i
+ 5327* vim  examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5328* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5329* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/7b.sh
+ 5330* vim examples/llama/70b.sh
+ 5331* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5332  git add -i
+ 5333  git log
+ 5334  git add -i
+ 5335* vim examples/llama/70b.sh
+ 5336  git add -i
+ 5337* vim pretrain_llama.py
+ 5338* vim examples/llama/70b.sh
+ 5339* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5340* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5341* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5342* vim examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5343* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/pretrain_llama_7b_distributed_with_mp.sh
+ 5344* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5345* vim examples/llama/70b.sh
+ 5346* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5347* vim examples/llama/70b.sh
+ 5348* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5349* vim examples/llama/70b.sh
+ 5350* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5351* vim examples/llama/70b.sh
+ 5352* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5353* vim examples/llama/70b.sh
+ 5354* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5355* vim examples/llama/70b.sh
+ 5356* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5357* vim examples/llama/70b.sh
+ 5358* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5359* vim examples/llama/70b.sh
+ 5360* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5361* vim examples/llama/70b.sh
+ 5362* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5363* vim examples/llama/70b.sh
+ 5364* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5365* vim examples/llama/70b.sh
+ 5366* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5367* vim examples/llama/70b.sh
+ 5368* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5369* vim examples/llama/70b.sh
+ 5370* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5371* vim examples/llama/70b.sh
+ 5372* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5373* vim examples/llama/70b.sh
+ 5374* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5375* vim examples/llama/70b.sh
+ 5376* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5377* vim examples/llama/70b.sh
+ 5378* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5379* vim examples/llama/70b.sh
+ 5380* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5381* vim examples/llama/70b.sh
+ 5382* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5383* vim examples/llama/70b.sh
+ 5384* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5385* vim examples/llama/70b.sh
+ 5386* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5387* vim examples/llama/70b.sh
+ 5388* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5389* vim examples/llama/70b.sh
+ 5390* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5391* vim examples/llama/70b.sh
+ 5392* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5393* vim examples/llama/70b.sh
+ 5394* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5395* vim examples/llama/70b.sh
+ 5396* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5397* vim examples/llama/70b.sh
+ 5398* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5399* vim examples/llama/70b.sh
+ 5400* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5401* vim examples/llama/70b.sh
+ 5402* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5403* vim examples/llama/70b.sh
+ 5404* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5405* vim examples/llama/70b.sh
+ 5406* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5407* vim examples/llama/70b.sh
+ 5408* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5409* vim examples/llama/70b.sh
+ 5410* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5411* vim examples/llama/70b.sh
+ 5412* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5413* vim megatron/global_vars.py
+ 5414* vim examples/llama/70b.sh
+ 5415* vim megatron/global_vars.py
+ 5416* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5417* vim examples/llama/70b.sh
+ 5418* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5419* vim megatron/global_vars.py
+ 5420* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5421* vim megatron/global_vars.py
+ 5422* vim megatron/train.py
+ 5423* vim megatron/training.py
+ 5424* vim megatron/checkpointing.py
+ 5425* pwd
+ 5426* ls
+ 5427* tmux a -t hkz \n
+ 5428* vim megatron/training.py
+ 5429* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5430* nvidia-smi
+ 5431* tmux a -t hkz \n
+ 5432* vim examples/llama/70b.sh
+ 5433* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5434* vim examples/llama/70b.sh
+ 5435* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5436* vim examples/llama/70b.sh
+ 5437* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5438* vim examples/llama/70b.sh
+ 5439* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5440* vim examples/llama/70b.sh
+ 5441* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5442* vim examples/llama/70b.sh
+ 5443* CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5444* exit
+ 5445* tmux a -t hkz
+ 5446  history
+ 5447  vim examples/llama/70b.sh
+ 5448  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5449  vim examples/llama/70b.sh
+ 5450  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5451  vim examples/llama/70b.sh
+ 5452  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5453  vim examples/llama/70b.sh
+ 5454  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5455  vim examples/llama/70b.sh
+ 5456  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5457  vim examples/llama/70b.sh
+ 5458* nvidia-smi
+ 5459* nvitop
+ 5460* top
+ 5461* ps
+ 5462* top
+ 5463* python3 test.py
+ 5464* conda activate megatron
+ 5465* python3 test.py
+ 5466* python3
+ 5467* python3 test.py
+ 5468* conda activate megatron
+ 5469* python3 test.py
+ 5470* python3
+ 5471* python3 test.py
+ 5472* tmux a -t hkz
+ 5473  ls
+ 5474* pwd
+ 5475* tmux a -t hkz
+ 5476  pwd
+ 5477  ls
+ 5478  cd megatron
+ 5479  ls
+ 5480  vim utils.py
+ 5481  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5482  cd ..
+ 5483  CUD
+ 5484  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/70b.sh
+ 5485  nvidia-smi
+ 5486  vim examples/llama/70b.sh
+ 5487  vim examples/llama/7b.sh
+ 5488  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash examples/llama/7b.sh
+ 5489  CUDA_VISIBLE_DEVICES=4,5,6,7 bash examples/llama/7b.sh
+ 5490  ls
+ 5491  lsof -i :6000
+ 5492  netstat -tuln | grep 6000
+ 5493  ls
+ 5494  pwd
+ 5495  pip list
+ 5496* tmux ls
+ 5497  history

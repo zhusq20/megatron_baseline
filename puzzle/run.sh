@@ -1,0 +1,13 @@
+examples/llama/70b_1024.sh
+examples/llama/7b_2048.sh
+examples/llama/13b_2048.sh
+examples/llama/30b_2048.sh
+examples/llama/70b_2048.sh
+examples/llama/7b_4096.sh
+examples/llama/13b_4096.sh
+examples/llama/30b_4096.sh
+examples/llama/70b_4096.sh
+examples/llama/7b_8192.sh
+examples/llama/13b_8192.sh
+examples/llama/30b_8192.sh
+examples/llama/70b_8192.sh
